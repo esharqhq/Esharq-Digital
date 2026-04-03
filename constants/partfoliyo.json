@@ -1,0 +1,563 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "label": {
+        "en": "All Projects",
+        "ru": "Все проекты",
+        "uz": "Barcha loyihalar"
+      }
+    },
+    {
+      "id": "web",
+      "label": {
+        "en": "Web Sites",
+        "ru": "Веб-сайты",
+        "uz": "Veb-saytlar"
+      }
+    },
+    {
+      "id": "app",
+      "label": {
+        "en": "Mobile Apps",
+        "ru": "Мобильные приложения",
+        "uz": "Mobil ilovalar"
+      }
+    },
+    {
+      "id": "marketing",
+      "label": {
+        "en": "Marketing",
+        "ru": "Маркетинг",
+        "uz": "Marketing"
+      }
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": "kids-web",
+      "slug": "akademiya-roditelstva",
+      "category": "web",
+      "color": "#6B8C3E",
+      "year": 2024,
+      "image": "/images/portfolio/kids_web.png",
+      "mockup_type": "laptop",
+
+      "title": {
+        "en": "Conscious Parenting Academy",
+        "ru": "Академия Осознанного Родительства",
+        "uz": "Ongli Ota-onalik Akademiyasi"
+      },
+
+      "short_desc": {
+        "en": "Parenting education platform with courses, calendar and expert articles",
+        "ru": "Образовательная платформа для родителей с курсами, календарём и статьями экспертов",
+        "uz": "Kurslar, kalendar va ekspert maqolalari bilan ota-onalik ta'lim platformasi"
+      },
+
+      "tags": {
+        "en": ["Web Design", "UI/UX", "Education", "Landing Page"],
+        "ru": ["Веб-дизайн", "UI/UX", "Образование", "Лендинг"],
+        "uz": ["Veb-dizayn", "UI/UX", "Ta'lim", "Landing Sahifa"]
+      },
+
+      "details": {
+        "client": "Akademiya Osoznannogo Roditelstva",
+        "industry": {
+          "en": "Education / Parenting",
+          "ru": "Образование / Родительство",
+          "uz": "Ta'lim / Ota-onalik"
+        },
+        "services": {
+          "en": ["UI Design", "Web Development", "Branding"],
+          "ru": ["UI-дизайн", "Веб-разработка", "Брендинг"],
+          "uz": ["UI Dizayn", "Veb Dasturlash", "Brending"]
+        },
+        "description": {
+          "en": "A warm and nature-inspired educational platform for conscious parenting. Features online courses, expert blogs, event calendar, and community access. Designed with an earthy green palette and soft typography to reflect trust and care.",
+          "ru": "Тёплая образовательная платформа для осознанного родительства. Включает онлайн-курсы, блог экспертов, календарь событий и доступ к сообществу. Оформлена в природных зелёных тонах с мягкой типографикой, отражающей доверие и заботу.",
+          "uz": "Ongli ota-onalik uchun iliq va tabiatga ilhomlangan ta'lim platformasi. Onlayn kurslar, ekspert bloglari, tadbir taqvimi va jamiyatga kirish imkoniyatlari mavjud. Ishonch va g'amxo'rlikni ifodalovchi yashil ranglar va yumshoq tipografiya bilan bezatilgan."
+        },
+        "features": {
+          "en": [
+            "Course catalog with enrollment",
+            "Expert article blog",
+            "Event & webinar calendar",
+            "User authentication",
+            "Social media integration"
+          ],
+          "ru": [
+            "Каталог курсов с записью",
+            "Блог статей от экспертов",
+            "Календарь мероприятий и вебинаров",
+            "Авторизация пользователей",
+            "Интеграция с социальными сетями"
+          ],
+          "uz": [
+            "Ro'yxatdan o'tish bilan kurslar katalogi",
+            "Ekspert maqolalari blogi",
+            "Tadbirlar va vebinarlar taqvimi",
+            "Foydalanuvchi autentifikatsiyasi",
+            "Ijtimoiy tarmoqlar integratsiyasi"
+          ]
+        },
+        "stack": ["Next.js", "Tailwind CSS", "Figma"],
+        "result": {
+          "en": "Clean, conversion-focused landing page with warm aesthetic that resonates with young parents",
+          "ru": "Чистый лендинг с фокусом на конверсию и тёплой эстетикой, близкой молодым родителям",
+          "uz": "Yosh ota-onalarga yaqin iliq estetikada konversiyaga yo'naltirilgan toza landing sahifa"
+        }
+      }
+    },
+
+    {
+      "id": "marketing-agency",
+      "slug": "marketing-agency-services",
+      "category": "marketing",
+      "color": "#00C8E0",
+      "year": 2024,
+      "images": [
+        "/images/portfolio/marketing_mark1.png",
+        "/images/portfolio/marketing_mark2.png",
+        "/images/portfolio/marketing_mark3.png"
+      ],
+      "image": "/images/portfolio/marketing_mark1.png",
+      "mockup_type": "screen",
+
+      "title": {
+        "en": "Digital Marketing Agency",
+        "ru": "Диджитал Маркетинговое Агентство",
+        "uz": "Raqamli Marketing Agentligi"
+      },
+
+      "short_desc": {
+        "en": "Full-service marketing platform with service showcase and media planning visuals",
+        "ru": "Полный комплекс маркетинговых услуг с визуализацией сервисов и медиапланирования",
+        "uz": "Xizmatlar va media rejalashtirish vizuallari bilan to'liq marketing platformasi"
+      },
+
+      "tags": {
+        "en": ["Marketing", "Presentation Design", "Infographic", "Strategy"],
+        "ru": ["Маркетинг", "Дизайн презентаций", "Инфографика", "Стратегия"],
+        "uz": ["Marketing", "Taqdimot Dizayni", "Infografika", "Strategiya"]
+      },
+
+      "details": {
+        "client": "Digital Marketing Agency",
+        "industry": {
+          "en": "Marketing & Advertising",
+          "ru": "Маркетинг и реклама",
+          "uz": "Marketing va reklama"
+        },
+        "services": {
+          "en": [
+            "Presentation Design",
+            "Infographic Design",
+            "Brand Strategy Visuals"
+          ],
+          "ru": [
+            "Дизайн презентаций",
+            "Инфографика",
+            "Визуализация бренд-стратегии"
+          ],
+          "uz": [
+            "Taqdimot Dizayni",
+            "Infografika Dizayni",
+            "Brend Strategiyasi Vizuallari"
+          ]
+        },
+        "description": {
+          "en": "A complete visual marketing toolkit including 8 service cards (Research, Strategy, Funnel, Content Plan, Content Creation, Ads, Analytics, Growth) connected with a flowing dotted path. Also includes a Budget Allocation & Funnel Optimization infographic with Cold, Warm, and Awareness audience breakdown.",
+          "ru": "Полный визуальный маркетинговый набор, включающий 8 карточек услуг (Исследования, Стратегия, Воронка, Контент-план, Создание контента, Реклама, Аналитика, Рост) соединённых пунктирной линией. Также включает инфографику по распределению бюджета и оптимизации воронки с разбивкой по холодной, тёплой аудитории и узнаваемости.",
+          "uz": "8 ta xizmat kartochkasi (Tadqiqot, Strategiya, Voronka, Kontent Rejasi, Kontent Yaratish, Reklama, Analitika, O'sish) dan iborat to'liq vizual marketing to'plami. Shuningdek, sovuq, iliq auditoriya va xabardorlik bo'yicha byudjet taqsimlash infografikasi mavjud."
+        },
+        "features": {
+          "en": [
+            "8-service card grid with neon glow aesthetic",
+            "LinkedIn integration mockup",
+            "Media Planning infographic",
+            "Budget allocation chart (Cold / Warm / Awareness)",
+            "Dark tech-futuristic visual style"
+          ],
+          "ru": [
+            "Сетка из 8 карточек услуг с неоновым свечением",
+            "Макет интеграции с LinkedIn",
+            "Инфографика медиапланирования",
+            "Диаграмма распределения бюджета (Холодная / Тёплая / Узнаваемость)",
+            "Тёмный технофутуристичный визуальный стиль"
+          ],
+          "uz": [
+            "Neon yoritish bilan 8 ta xizmat kartochkasi tartibi",
+            "LinkedIn integratsiya maketi",
+            "Media rejalashtirish infografika",
+            "Byudjet taqsimlash diagrammasi (Sovuq / Iliq / Xabardorlik)",
+            "To'q texno-futuristik vizual uslub"
+          ]
+        },
+        "stack": ["Figma", "After Effects", "Canva Pro"],
+        "result": {
+          "en": "High-impact marketing visuals that clearly communicate agency capabilities to potential clients",
+          "ru": "Эффектные маркетинговые визуалы, чётко демонстрирующие возможности агентства потенциальным клиентам",
+          "uz": "Agentlik imkoniyatlarini potentsial mijozlarga aniq yetkazuvchi yuqori ta'sirli marketing vizuallari"
+        }
+      }
+    },
+
+    {
+      "id": "maryam-brand",
+      "slug": "maryam-fashion-brand",
+      "category": "web",
+      "color": "#A0724A",
+      "year": 2024,
+      "image": "/images/portfolio/maryam_web.png",
+      "mockup_type": "multi",
+
+      "title": {
+        "en": "MARYAM — Fashion Brand Identity",
+        "ru": "MARYAM — Айдентика Модного Бренда",
+        "uz": "MARYAM — Moda Brendi Identifikatsiyasi"
+      },
+
+      "short_desc": {
+        "en": "Complete brand identity and ecommerce website for a luxury fashion label",
+        "ru": "Полная айдентика бренда и интернет-магазин для люксового модного бренда",
+        "uz": "Hashamatli moda brendi uchun to'liq brend identifikatsiyasi va elektron tijorat sayti"
+      },
+
+      "tags": {
+        "en": ["Branding", "E-commerce", "Web Design", "Identity"],
+        "ru": ["Брендинг", "Интернет-магазин", "Веб-дизайн", "Айдентика"],
+        "uz": ["Brending", "Elektron Tijorat", "Veb-dizayn", "Identifikatsiya"]
+      },
+
+      "details": {
+        "client": "MARYAM",
+        "industry": {
+          "en": "Fashion / Retail",
+          "ru": "Мода / Ритейл",
+          "uz": "Moda / Chakana savdo"
+        },
+        "services": {
+          "en": [
+            "Brand Identity",
+            "Logo Design",
+            "Web Design",
+            "E-commerce",
+            "Packaging Design"
+          ],
+          "ru": [
+            "Айдентика бренда",
+            "Дизайн логотипа",
+            "Веб-дизайн",
+            "Интернет-магазин",
+            "Дизайн упаковки"
+          ],
+          "uz": [
+            "Brend Identifikatsiyasi",
+            "Logo Dizayni",
+            "Veb-dizayn",
+            "Elektron Tijorat",
+            "Qadoqlash Dizayni"
+          ]
+        },
+        "description": {
+          "en": "End-to-end brand identity for MARYAM — a premium fashion label. Includes logo system, shopping bags, gift boxes, clothing tags, business cards, wrapping paper, and a full ecommerce website. Cream and rose-gold palette conveys elegance and femininity.",
+          "ru": "Комплексная айдентика для MARYAM — премиального модного бренда. Включает логосистему, пакеты для покупок, подарочные коробки, бирки для одежды, визитные карточки, упаковочную бумагу и полноценный интернет-магазин. Кремово-розово-золотая палитра передаёт элегантность и женственность.",
+          "uz": "MARYAM — premium moda brendi uchun to'liq identifikatsiya. Logo tizimi, xarid sumkalari, sovg'a qutilari, kiyim yorliqlari, vizit kartochkalari, o'rov qog'ozi va to'liq elektron tijorat saytini o'z ichiga oladi. Qaymoq va atirgul-oltin palitra nafosatni ifodalaydi."
+        },
+        "features": {
+          "en": [
+            "Tulip/M monogram logo system",
+            "Full packaging (bags, boxes, tags, tissue paper)",
+            "Business card design",
+            "Mobile app new collection screen",
+            "Ecommerce website with hero section",
+            "Category browsing (Clothing, Shoes, Bags, Accessories)"
+          ],
+          "ru": [
+            "Логосистема с монограммой тюльпан/М",
+            "Полный комплект упаковки (пакеты, коробки, бирки, бумага)",
+            "Дизайн визитных карточек",
+            "Экран новой коллекции в мобильном приложении",
+            "Интернет-магазин с главным баннером",
+            "Навигация по категориям (Одежда, Обувь, Сумки, Аксессуары)"
+          ],
+          "uz": [
+            "Lola/M monogramma logo tizimi",
+            "To'liq qadoqlash (sumkalar, qutiler, yorliqlar, qog'oz)",
+            "Vizit kartochka dizayni",
+            "Mobil ilovada yangi kolleksiya ekrani",
+            "Asosiy banner bilan elektron tijorat sayti",
+            "Kategoriyalar bo'yicha navigatsiya (Kiyim, Poyabzal, Sumkalar, Aksessuarlar)"
+          ]
+        },
+        "stack": ["Figma", "Next.js", "Tailwind CSS"],
+        "result": {
+          "en": "Cohesive luxury brand identity that translates seamlessly from physical packaging to digital storefront",
+          "ru": "Цельная люксовая айдентика, органично переходящая от физической упаковки к цифровой витрине",
+          "uz": "Jismoniy qadoqlashdan raqamli do'konga muammosiz o'tadigan yaxlit hashamatli brend identifikatsiyasi"
+        }
+      }
+    },
+
+    {
+      "id": "orzu-travel",
+      "slug": "orzu-travel-website",
+      "category": "web",
+      "color": "#1E3A5F",
+      "year": 2024,
+      "image": "/images/portfolio/orzu_trevel_web.png",
+      "mockup_type": "dual-laptop",
+
+      "title": {
+        "en": "Orzu Travel — Tour Agency Website",
+        "ru": "Orzu Travel — Сайт Туристического Агентства",
+        "uz": "Orzu Travel — Sayohat Agentligi Sayti"
+      },
+
+      "short_desc": {
+        "en": "Modern travel agency website with tour catalog, flight booking and destination pages",
+        "ru": "Современный сайт туристического агентства с каталогом туров, бронированием и страницами направлений",
+        "uz": "Turlar katalogi, aviabiletlar va yo'nalishlar sahifalari bilan zamonaviy sayohat agentligi sayti"
+      },
+
+      "tags": {
+        "en": ["Web Design", "Travel", "Booking", "UI/UX"],
+        "ru": ["Веб-дизайн", "Туризм", "Бронирование", "UI/UX"],
+        "uz": ["Veb-dizayn", "Sayohat", "Bron qilish", "UI/UX"]
+      },
+
+      "details": {
+        "client": "Orzu Travel",
+        "industry": {
+          "en": "Travel & Tourism",
+          "ru": "Туризм и путешествия",
+          "uz": "Sayohat va turizm"
+        },
+        "services": {
+          "en": ["Web Design", "UI/UX", "Front-end Development"],
+          "ru": ["Веб-дизайн", "UI/UX", "Фронтенд-разработка"],
+          "uz": ["Veb-dizayn", "UI/UX", "Frontend Dasturlash"]
+        },
+        "description": {
+          "en": "A sleek, dark-themed travel agency website for Orzu Travel. Features destination-based tour listings, pricing cards, hotel search, visa assistance, insurance, and transfer options. The homepage hero reads 'We create bright adventures' with full navigation across Tours, Hotels, Air Tickets, Visa, Insurance, Promo, MCE, SIM, Transfer.",
+          "ru": "Стильный сайт в тёмных тонах для туристического агентства Orzu Travel. Включает листинг туров по направлениям, карточки с ценами, поиск отелей, визовую помощь, страховку и трансфер. Главный баннер гласит «We create bright adventures» с полной навигацией по турам, отелям, авиабилетам, визам, страховкам, промо, МЦЕ, SIM и трансферу.",
+          "uz": "Orzu Travel uchun zamonaviy to'q rangli sayohat agentligi sayti. Yo'nalishlar bo'yicha turlar ro'yxati, narx kartochkalari, mehmonxona qidirish, viza yordami, sug'urta va transfer mavjud. Bosh sahifa 'We create bright adventures' shiori bilan turlar, mehmonxonalar, aviachiptalar, vizalar, sug'urta, promo bo'yicha to'liq navigatsiyaga ega."
+        },
+        "features": {
+          "en": [
+            "Full-screen hero with destination imagery",
+            "Tour catalog with pricing ($2,099 – $3,999)",
+            "Nha Trang destination deep-dive page",
+            "Multi-language support (RU / EN)",
+            "Services mega-menu: Tours, Hotels, Tickets, Visa, Insurance",
+            "Telegram & phone contact integration"
+          ],
+          "ru": [
+            "Полноэкранный главный баннер с изображениями направлений",
+            "Каталог туров с ценами ($2 099 – $3 999)",
+            "Страница направления Нха Транг",
+            "Поддержка нескольких языков (RU / EN)",
+            "Мега-меню: Туры, Отели, Билеты, Виза, Страховка",
+            "Интеграция с Telegram и телефоном"
+          ],
+          "uz": [
+            "Yo'nalish tasvirlari bilan to'liq ekran asosiy banner",
+            "Narxlar bilan turlar katalogi ($2 099 – $3 999)",
+            "Nha Trang yo'nalishi sahifasi",
+            "Ko'p tilli qo'llab-quvvatlash (RU / EN)",
+            "Mega-menyu: Turlar, Mehmonxonalar, Chiptalar, Viza, Sug'urta",
+            "Telegram va telefon integratsiyasi"
+          ]
+        },
+        "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "result": {
+          "en": "Professional travel platform that converts visitors into bookings with clear pricing and destination content",
+          "ru": "Профессиональная тревел-платформа, конвертирующая посетителей в брони за счёт чётких цен и контента по направлениям",
+          "uz": "Aniq narxlar va yo'nalish kontenti orqali tashrif buyuruvchilarni bronlarga aylantiruvchi professional sayohat platformasi"
+        }
+      }
+    },
+
+    {
+      "id": "president-gifts",
+      "slug": "president-business-gifts",
+      "category": "web",
+      "color": "#C9A84C",
+      "year": 2024,
+      "image": "/images/portfolio/president_web.png",
+      "mockup_type": "laptop",
+
+      "title": {
+        "en": "President Business Gifts",
+        "ru": "President Business Gifts",
+        "uz": "President Business Gifts"
+      },
+
+      "short_desc": {
+        "en": "Luxury B2B gift shop — exclusive corporate gift ecommerce platform",
+        "ru": "Люксовый B2B-магазин подарков — платформа эксклюзивных корпоративных подарков",
+        "uz": "Hashamatli B2B sovg'a do'koni — eksklyuziv korporativ sovg'alar elektron tijorat platformasi"
+      },
+
+      "tags": {
+        "en": ["E-commerce", "Luxury", "Web Design", "B2B"],
+        "ru": ["Интернет-магазин", "Люкс", "Веб-дизайн", "B2B"],
+        "uz": ["Elektron Tijorat", "Hashamat", "Veb-dizayn", "B2B"]
+      },
+
+      "details": {
+        "client": "President Business Gifts",
+        "industry": {
+          "en": "Luxury Gifts / Corporate B2B",
+          "ru": "Люксовые подарки / Корпоративный B2B",
+          "uz": "Hashamatli sovg'alar / Korporativ B2B"
+        },
+        "services": {
+          "en": ["Web Design", "E-commerce Development", "UI/UX"],
+          "ru": ["Веб-дизайн", "Разработка интернет-магазина", "UI/UX"],
+          "uz": ["Veb-dizayn", "Elektron Tijorat Dasturlash", "UI/UX"]
+        },
+        "description": {
+          "en": "An exclusive e-commerce platform for premium corporate gifts. The hero section features high-quality product photography with the tagline 'Welcome to the world of exclusive gifts — Where every item reflects respect, status, and impeccable taste.' Clean Apple-inspired navigation with Shop and Discover sections.",
+          "ru": "Эксклюзивная платформа электронной коммерции для премиальных корпоративных подарков. Главный баннер с профессиональной фотосъёмкой продуктов и слоганом «Добро пожаловать в мир эксклюзивных подарков — Где каждый предмет отражает уважение, статус и безупречный вкус». Чистая Apple-вдохновлённая навигация с разделами Shop и Discover.",
+          "uz": "Premium korporativ sovg'alar uchun eksklyuziv elektron tijorat platformasi. Asosiy banner 'Eksklyuziv sovg'alar dunyosiga xush kelibsiz — Har bir buyum hurmat, maqom va beqiyos didni aks ettiradi' shiori bilan professional mahsulot fotografiyasini namoyish etadi. Shop va Discover bo'limlari bilan Apple-ilhomlangan toza navigatsiya."
+        },
+        "features": {
+          "en": [
+            "Luxury hero with cinematic product photography",
+            "Shop & Discover navigation",
+            "Wishlist, cart and account system",
+            "Multi-language & currency support",
+            "Custom order inquiry CTA",
+            "Dark mahogany & gold color scheme"
+          ],
+          "ru": [
+            "Роскошный баннер с кинематографической съёмкой товаров",
+            "Навигация Shop & Discover",
+            "Список желаний, корзина и личный кабинет",
+            "Поддержка нескольких языков и валют",
+            "CTA для индивидуального заказа",
+            "Тёмная палитра: красное дерево и золото"
+          ],
+          "uz": [
+            "Kinematografik mahsulot fotografiyasi bilan hashamatli banner",
+            "Shop va Discover navigatsiyasi",
+            "Istaklar ro'yxati, savatcha va shaxsiy kabinet",
+            "Ko'p tilli va valyuta qo'llab-quvvatlash",
+            "Maxsus buyurtma uchun CTA",
+            "To'q mahogany va oltin rang sxemasi"
+          ]
+        },
+        "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Figma"],
+        "result": {
+          "en": "Premium digital storefront that positions the brand as the go-to source for high-end corporate gifting",
+          "ru": "Премиальная цифровая витрина, позиционирующая бренд как главный источник высококлассных корпоративных подарков",
+          "uz": "Brendni yuqori darajadagi korporativ sovg'alar uchun asosiy manba sifatida joylashtiruvchi premium raqamli do'kon"
+        }
+      }
+    },
+
+    {
+      "id": "travelers-coffee-app",
+      "slug": "travelers-coffee-mobile-app",
+      "category": "app",
+      "color": "#2D7A3A",
+      "year": 2024,
+      "images": [
+        "/images/portfolio/trevers_app.png",
+        "/images/portfolio/trevers_app2.png"
+      ],
+      "image": "/images/portfolio/trevers_app.png",
+      "mockup_type": "mobile-multi",
+
+      "title": {
+        "en": "Traveler's Coffee — Mobile App",
+        "ru": "Traveler's Coffee — Мобильное приложение",
+        "uz": "Traveler's Coffee — Mobil Ilova"
+      },
+
+      "short_desc": {
+        "en": "Loyalty & ordering mobile app for Traveler's Coffee chain with points, QR and pre-order",
+        "ru": "Мобильное приложение лояльности и заказов для сети Traveler's Coffee с баллами, QR-кодом и предзаказом",
+        "uz": "Traveler's Coffee tarmog'i uchun ballar, QR va oldindan buyurtma bilan sodiqlik va buyurtma mobil ilovasi"
+      },
+
+      "tags": {
+        "en": ["Mobile App", "UI/UX", "iOS", "Loyalty Program"],
+        "ru": ["Мобильное приложение", "UI/UX", "iOS", "Программа лояльности"],
+        "uz": ["Mobil Ilova", "UI/UX", "iOS", "Sodiqlik Dasturi"]
+      },
+
+      "details": {
+        "client": "Traveler's Coffee",
+        "industry": {
+          "en": "F&B / Coffee Chain",
+          "ru": "Общепит / Сеть кофеен",
+          "uz": "Oziq-ovqat va ichimlik / Kofe tarmog'i"
+        },
+        "services": {
+          "en": ["Mobile App Design", "UI/UX", "iOS & Android Development"],
+          "ru": [
+            "Дизайн мобильного приложения",
+            "UI/UX",
+            "Разработка для iOS и Android"
+          ],
+          "uz": ["Mobil Ilova Dizayni", "UI/UX", "iOS va Android Dasturlash"]
+        },
+        "description": {
+          "en": "A fully designed loyalty and ordering app for Traveler's Coffee — a popular coffee chain. Features a points wallet (17,340 pts), stamp card system (get 7th coffee free), QR code scanner, menu categories, gift coffee feature, location finder map, and a news feed. All screens designed in the brand's signature green and orange palette.",
+          "ru": "Полностью разработанное приложение лояльности и заказов для Traveler's Coffee — популярной сети кофеен. Включает кошелёк баллов (17 340 баллов), систему штампов (7-й кофе в подарок), сканер QR-кода, категории меню, функцию подарка кофе, карту локаций и ленту новостей. Все экраны выполнены в фирменной зелёно-оранжевой палитре бренда.",
+          "uz": "Traveler's Coffee — mashhur kofe tarmog'i uchun to'liq ishlab chiqilgan sodiqlik va buyurtma ilovasi. Ballar hamyoni (17 340 ball), shtamp kartochkasi tizimi (7-chi kofe bepul), QR-kod skaneri, menyu toifalari, kofe sovg'a qilish funksiyasi, joylashuv xaritasi va yangiliklar lentasi mavjud. Barcha ekranlar brendning yashil va to'q sariq rang sxemasida yaratilgan."
+        },
+        "features": {
+          "en": [
+            "Points wallet with level progress bar (Welcome — 23%)",
+            "Stamp card: collect 3/6 toward a free coffee",
+            "QR code for earning & spending points",
+            "Pre-order functionality",
+            "Gift a coffee to friends",
+            "All locations map (Yunusabad & more)",
+            "News & promotions feed",
+            "Transaction history"
+          ],
+          "ru": [
+            "Кошелёк баллов с прогресс-баром уровня (Welcome — 23%)",
+            "Штамп-карта: 3/6 к бесплатному кофе",
+            "QR-код для начисления и списания баллов",
+            "Функция предзаказа",
+            "Подарить кофе друзьям",
+            "Карта всех локаций (Юнусабад и другие)",
+            "Лента новостей и акций",
+            "История транзакций"
+          ],
+          "uz": [
+            "Daraja taraqqiyoti paneli bilan ballar hamyoni (Welcome — 23%)",
+            "Shtamp kartochka: bepul kofe uchun 3/6",
+            "Ball yig'ish va sarflash uchun QR-kod",
+            "Oldindan buyurtma funksiyasi",
+            "Do'stlarga kofe sovg'a qilish",
+            "Barcha joylashuvlar xaritasi (Yunusobod va boshqalar)",
+            "Yangiliklar va aksiyalar lentasi",
+            "Tranzaksiyalar tarixi"
+          ]
+        },
+        "stack": ["React Native", "Figma", "iOS / Android"],
+        "screens": 8,
+        "result": {
+          "en": "Intuitive loyalty app that increases repeat visits and deepens customer engagement for the coffee chain",
+          "ru": "Интуитивное приложение лояльности, повышающее повторные визиты и вовлечённость клиентов кофейной сети",
+          "uz": "Kofe tarmog'i uchun takroriy tashrif buyurishlarni oshiradigan va mijozlar ishtiroqini chuqurlashtiruvchi intuitiv sodiqlik ilovasi"
+        }
+      }
+    }
+  ],
+
+  "stats": {
+    "total_projects": 6,
+    "web_projects": 4,
+    "app_projects": 1,
+    "marketing_projects": 1
+  }
+}

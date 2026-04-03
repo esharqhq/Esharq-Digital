@@ -4,10 +4,14 @@ import { Services } from "@/components/sections/Services";
 import { Workflow } from "@/components/sections/Workflow";
 import { Portfolio } from "@/components/sections/Portfolio";
 import { Contact } from "@/components/sections/Contact";
-import { getDictionary } from '@/lib/getDictionary'
-import type { Language } from '@/lib/dictionaries'
+import { getDictionary } from "@/lib/getDictionary";
+import type { Language } from "@/lib/dictionaries";
 
-export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
   const { lang } = await params;
   const dict = await getDictionary(lang as Language);
 
@@ -17,7 +21,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <WhyAI dict={dict.whyAi} />
       <Services dict={dict.services} />
       <Workflow dict={dict.workflow} />
-      <Portfolio dict={dict.portfolio} />
+      <Portfolio dict={dict.portfolio} lang={lang} />
       <Contact dict={dict.contact} />
     </main>
   );
