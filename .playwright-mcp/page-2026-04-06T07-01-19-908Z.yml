@@ -1,0 +1,466 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img [ref=e9]
+            - text: Neural_Coder
+          - generic [ref=e14]: "> system.boot()"
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - img [ref=e18]
+            - text: Vector_Lab
+          - img [ref=e25]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e33]
+            - text: Edge_Node
+          - generic [ref=e36]: 12ms
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - text: Auth_Guard
+          - generic [ref=e43]: Verified
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img [ref=e47]
+            - text: Neural_Coder
+          - generic [ref=e52]: "> system.boot()"
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - text: Vector_Lab
+          - img [ref=e63]
+      - generic [ref=e68]:
+        - generic [ref=e70]:
+          - img [ref=e72]
+          - text: UX_Engine
+        - generic [ref=e75]:
+          - img [ref=e77]
+          - text: BigData_Sync
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - img [ref=e82]
+            - text: AI_Compute
+          - generic [ref=e85]: 98.2%
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - text: Fast_Deploy
+          - generic [ref=e91]: Ready
+        - generic [ref=e93]:
+          - img [ref=e95]
+          - text: UX_Engine
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - text: BigData_Sync
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: UX_Engine
+        - generic [ref=e108]:
+          - img [ref=e110]
+          - text: BigData_Sync
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - text: AI_Compute
+          - generic [ref=e118]: 98.2%
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - img [ref=e122]
+            - text: Fast_Deploy
+          - generic [ref=e124]: Ready
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - text: UX_Engine
+        - generic [ref=e131]:
+          - img [ref=e133]
+          - text: BigData_Sync
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - text: Gen_Aesthet
+          - generic [ref=e142]: Processing
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - text: Deep_Store
+          - generic [ref=e150]: Encrypted
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - text: Full_Stack
+          - generic [ref=e158]: Optimized
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - img [ref=e162]
+            - text: Realtime_Log
+          - generic [ref=e164]: Stable
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - img [ref=e168]
+            - text: Gen_Aesthet
+          - generic [ref=e171]: Processing
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - img [ref=e175]
+            - text: Deep_Store
+          - generic [ref=e179]: Encrypted
+    - generic [ref=e182]:
+      - generic [ref=e183]: 0%
+      - generic [ref=e184]: Initializing...
+  - banner [ref=e185]:
+    - navigation [ref=e186]:
+      - img "Logo" [ref=e188]
+      - generic [ref=e189]:
+        - link "Solutions" [ref=e190] [cursor=pointer]:
+          - /url: "#solutions"
+        - link "Our Work" [ref=e191] [cursor=pointer]:
+          - /url: "#network"
+        - link "How It Works" [ref=e192] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e193]:
+        - link "en" [ref=e194] [cursor=pointer]:
+          - /url: /uz
+          - img [ref=e195]
+          - text: en
+        - button "Let's Talk" [ref=e198]
+      - generic [ref=e199]:
+        - link "en" [ref=e200] [cursor=pointer]:
+          - /url: /uz
+          - img [ref=e201]
+          - text: en
+        - button [ref=e204]:
+          - img [ref=e205]
+    - generic [ref=e207]:
+      - link "Solutions" [ref=e208] [cursor=pointer]:
+        - /url: "#solutions"
+      - link "Our Work" [ref=e209] [cursor=pointer]:
+        - /url: "#network"
+      - link "How It Works" [ref=e210] [cursor=pointer]:
+        - /url: "#contact"
+      - button "Let's Talk" [ref=e211]
+  - main [ref=e212]:
+    - generic [ref=e213]:
+      - generic [ref=e216]:
+        - heading "Your Business. Amplified By AI." [level=1] [ref=e217]:
+          - generic [ref=e218]:
+            - text: Your Business.
+            - text: Amplified
+            - text: By AI.
+        - paragraph [ref=e219]: "AI-Powered Solutions: 3x Faster."
+        - generic [ref=e220]:
+          - button "See What We Do" [ref=e221]:
+            - text: See What We Do
+            - img [ref=e222]
+          - button "View Our Work" [ref=e224]
+      - generic [ref=e225]: Initiate_Scroll
+    - generic [ref=e226]:
+      - heading "WHY ESHARQ" [level=2] [ref=e228]:
+        - generic [ref=e229]: WHY ESHARQ
+      - generic [ref=e230]:
+        - img [ref=e231]
+        - generic [ref=e234]:
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - img [ref=e239]
+              - text: The Old Way
+            - heading "The Old Way" [level=3] [ref=e242]:
+              - text: The Old
+              - text: Way
+            - generic [ref=e243]:
+              - paragraph [ref=e245]: Slow, manual work
+              - paragraph [ref=e247]: Limited by time & headcount
+              - paragraph [ref=e249]: Expensive for average results
+              - paragraph [ref=e251]: Guesswork-driven decisions
+              - generic [ref=e252]: "STATUS: LIMITEDERROR_RATE: HIGH"
+          - img [ref=e256]
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - img [ref=e270]
+                  - text: The Esharq Way
+                - heading "The Esharq Way" [level=3] [ref=e272]:
+                  - text: The Esharq
+                  - text: Way
+              - img [ref=e274]
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - img [ref=e281]
+                - paragraph [ref=e283]: AI-powered execution
+              - generic [ref=e284]:
+                - img [ref=e285]
+                - paragraph [ref=e287]: Scalable, always-on systems
+              - generic [ref=e288]:
+                - img [ref=e289]
+                - paragraph [ref=e291]: Premium output at smarter cost
+              - generic [ref=e292]:
+                - img [ref=e293]
+                - paragraph [ref=e295]: Data-backed strategy
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: Efficiency
+                - generic [ref=e299]: +300%
+              - generic [ref=e300]:
+                - generic [ref=e301]: Scale
+                - generic [ref=e302]: 10x
+        - paragraph [ref=e304]: Supporting line:Our clients don't just get a service — they get an unfair advantage.
+        - heading "ESHARQ" [level=3] [ref=e306]
+    - generic [ref=e308]:
+      - generic [ref=e309]:
+        - heading "Our Solutions" [level=2] [ref=e310]:
+          - generic [ref=e311]: Our Solutions
+        - paragraph [ref=e313]: From strategy to execution — we handle the digital side so you can focus on what you do best.
+      - generic [ref=e314]:
+        - generic [ref=e316]:
+          - generic [ref=e317]:
+            - img [ref=e319]
+            - generic [ref=e323]: "[01]"
+          - generic [ref=e324]:
+            - heading "AI Marketing Strategy" [level=3] [ref=e325]
+            - paragraph [ref=e326]: Data-driven marketing systems that attract the right audience, convert interest into sales, and scale automatically.
+          - generic [ref=e327]:
+            - text: Active_Systems
+            - img [ref=e328]
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - img [ref=e335]
+            - generic [ref=e337]: "[02]"
+          - generic [ref=e338]:
+            - heading "Targeted Advertising" [level=3] [ref=e339]
+            - paragraph [ref=e340]: Precision ad campaigns across Google, Meta, and beyond — reaching your ideal customer at exactly the right moment.
+          - generic [ref=e341]:
+            - text: Active_Systems
+            - img [ref=e342]
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - img [ref=e349]
+            - generic [ref=e355]: "[03]"
+          - generic [ref=e356]:
+            - heading "Social Media Management" [level=3] [ref=e357]
+            - paragraph [ref=e358]: We create, schedule, and grow your social presence across all platforms — so your brand shows up every day, even when you don't.
+          - generic [ref=e359]:
+            - text: Active_Systems
+            - img [ref=e360]
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - img [ref=e367]
+            - generic [ref=e373]: "[04]"
+          - generic [ref=e374]:
+            - heading "Brand & Graphic Design" [level=3] [ref=e375]
+            - paragraph [ref=e376]: Bold, scroll-stopping visuals that tell your story and make your brand impossible to forget.
+          - generic [ref=e377]:
+            - text: Active_Systems
+            - img [ref=e378]
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - img [ref=e385]
+            - generic [ref=e389]: "[05]"
+          - generic [ref=e390]:
+            - heading "Website & UX Design" [level=3] [ref=e391]
+            - paragraph [ref=e392]: Beautiful, intuitive websites designed around your visitors — turning clicks into customers from day one.
+          - generic [ref=e393]:
+            - text: Active_Systems
+            - img [ref=e394]
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - img [ref=e401]
+            - generic [ref=e404]: "[06]"
+          - generic [ref=e405]:
+            - heading "Web Development" [level=3] [ref=e406]
+            - paragraph [ref=e407]: Fast. Reliable. Built to scale. High-performance websites and web apps engineered for speed, security, and growth.
+          - generic [ref=e408]:
+            - text: Active_Systems
+            - img [ref=e409]
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - img [ref=e416]
+            - generic [ref=e418]: "[07]"
+          - generic [ref=e419]:
+            - heading "App Development" [level=3] [ref=e420]
+            - paragraph [ref=e421]: Your business in their pocket. Custom apps your audience will actually use — built for iOS, Android, or both.
+          - generic [ref=e422]:
+            - text: Active_Systems
+            - img [ref=e423]
+        - generic [ref=e427]:
+          - generic [ref=e428]:
+            - img [ref=e430]
+            - generic [ref=e432]: "[08]"
+          - generic [ref=e433]:
+            - heading "Cybersecurity" [level=3] [ref=e434]
+            - paragraph [ref=e435]: We safeguard your website, customer data, and operations from threats — so you never have to worry.
+          - generic [ref=e436]:
+            - text: Active_Systems
+            - img [ref=e437]
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - img [ref=e444]
+            - generic [ref=e447]: "[09]"
+          - generic [ref=e448]:
+            - heading "Custom AI Solutions" [level=3] [ref=e449]
+            - paragraph [ref=e450]: AI built around your business. From automation to intelligent tools — we design and train AI systems that do the heavy lifting for you.
+          - generic [ref=e451]:
+            - text: Active_Systems
+            - img [ref=e452]
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - img [ref=e459]
+            - generic [ref=e463]: "[10]"
+          - generic [ref=e464]:
+            - heading "Data & Analytics" [level=3] [ref=e465]
+            - paragraph [ref=e466]: We turn your raw data into clear, actionable insights — so every decision you make is backed by evidence.
+          - generic [ref=e467]:
+            - text: Active_Systems
+            - img [ref=e468]
+        - generic [ref=e472]:
+          - generic [ref=e473]:
+            - img [ref=e475]
+            - generic [ref=e478]: "[11]"
+          - generic [ref=e479]:
+            - heading "Infrastructure & Scaling" [level=3] [ref=e480]
+            - paragraph [ref=e481]: Whether you're local or global, we build the backend systems that let your business scale without limits.
+          - generic [ref=e482]:
+            - text: Active_Systems
+            - img [ref=e483]
+    - generic [ref=e487]:
+      - heading "HOW WE WORK" [level=2] [ref=e490]:
+        - generic [ref=e491]: HOW WE WORK
+      - generic [ref=e493]:
+        - generic [ref=e494]:
+          - generic [ref=e496]:
+            - text: "01"
+            - heading "Discover" [level=3] [ref=e497]
+            - paragraph [ref=e498]: We start by understanding your business, your goals, and your audience deeply. No assumptions.
+          - generic [ref=e500]:
+            - text: "01"
+            - heading "Discover" [level=3] [ref=e501]
+            - paragraph [ref=e502]: We start by understanding your business, your goals, and your audience deeply. No assumptions.
+        - generic [ref=e505]:
+          - text: "02"
+          - heading "Strategize" [level=3] [ref=e506]
+          - paragraph [ref=e507]: We map out a clear plan — the right tools, the right approach, and a realistic timeline.
+        - generic [ref=e508]:
+          - generic [ref=e510]:
+            - text: "03"
+            - heading "Build" [level=3] [ref=e511]
+            - paragraph [ref=e512]: Our team gets to work. You stay informed without being overwhelmed.
+          - generic [ref=e514]:
+            - text: "03"
+            - heading "Build" [level=3] [ref=e515]
+            - paragraph [ref=e516]: Our team gets to work. You stay informed without being overwhelmed.
+        - generic [ref=e519]:
+          - text: "04"
+          - heading "Launch & Grow" [level=3] [ref=e520]
+          - paragraph [ref=e521]: We deploy, monitor, and optimize — because going live is just the beginning.
+    - generic [ref=e522]:
+      - generic [ref=e524]:
+        - heading "RESULTS WE'REPROUD OF" [level=2] [ref=e525]:
+          - generic [ref=e526]: RESULTS WE'RE
+          - text: PROUD OF
+        - paragraph [ref=e528]: Real projects. Real outcomes.
+      - generic [ref=e529]:
+        - generic [ref=e531]:
+          - img "Digital Marketing Agency" [ref=e532]
+          - img [ref=e535]
+          - generic [ref=e536]:
+            - text: marketing
+            - heading "Digital Marketing Agency" [level=3] [ref=e537]
+        - generic [ref=e539]:
+          - img "Digital Marketing Agency" [ref=e540]
+          - img [ref=e543]
+          - generic [ref=e544]:
+            - text: marketing
+            - heading "Digital Marketing Agency" [level=3] [ref=e545]
+        - generic [ref=e547]:
+          - img "Digital Marketing Agency" [ref=e548]
+          - img [ref=e551]
+          - generic [ref=e552]:
+            - text: marketing
+            - heading "Digital Marketing Agency" [level=3] [ref=e553]
+        - generic [ref=e555]:
+          - img "MARYAM — Fashion Brand Identity" [ref=e556]
+          - img [ref=e559]
+          - generic [ref=e560]:
+            - text: web
+            - heading "MARYAM — Fashion Brand Identity" [level=3] [ref=e561]
+        - generic [ref=e563]:
+          - img "Orzu Travel — Tour Agency Website" [ref=e564]
+          - img [ref=e567]
+          - generic [ref=e568]:
+            - text: web
+            - heading "Orzu Travel — Tour Agency Website" [level=3] [ref=e569]
+        - generic [ref=e571]:
+          - img "President Business Gifts" [ref=e572]
+          - img [ref=e575]
+          - generic [ref=e576]:
+            - text: web
+            - heading "President Business Gifts" [level=3] [ref=e577]
+        - generic [ref=e579]:
+          - img "Conscious Parenting Academy" [ref=e580]
+          - img [ref=e583]
+          - generic [ref=e584]:
+            - text: web
+            - heading "Conscious Parenting Academy" [level=3] [ref=e585]
+        - generic [ref=e586]:
+          - heading "READY TO BUILD SOMETHING THAT ACTUALLY WORKS?" [level=3] [ref=e587]:
+            - text: READY TO BUILD
+            - text: SOMETHING THAT ACTUALLY WORKS?
+          - button "Start the Conversation" [ref=e588]:
+            - generic [ref=e589]:
+              - text: Start the Conversation
+              - img [ref=e590]
+    - generic [ref=e596]:
+      - generic [ref=e597]:
+        - generic [ref=e598]:
+          - generic [ref=e599]:
+            - img [ref=e600]
+            - text: Let's Talk
+          - heading "Start Your Movement." [level=2] [ref=e602]:
+            - text: Start Your
+            - text: Movement.
+        - generic [ref=e603]:
+          - generic [ref=e604]:
+            - paragraph [ref=e605]: E-mail
+            - generic [ref=e606]:
+              - img [ref=e607]
+              - text: hello@esharq.ai
+          - generic [ref=e610]:
+            - paragraph [ref=e611]: Location
+            - generic [ref=e612]:
+              - img [ref=e613]
+              - text: Tashkent, UZ
+      - generic [ref=e617]:
+        - generic [ref=e618]:
+          - generic [ref=e619]:
+            - text: Your Name
+            - textbox "ENTER_NAME" [ref=e620]
+          - generic [ref=e621]:
+            - text: Your Email
+            - textbox "ENTER_EMAIL" [ref=e622]
+        - generic [ref=e623]:
+          - text: Tell us about your project
+          - textbox "DESCRIBE_PROJECT_GOALS" [ref=e624]
+        - button "Send Message" [ref=e625]:
+          - text: Send Message
+          - img [ref=e626]
+  - contentinfo [ref=e628]:
+    - heading "ESHARQ" [level=2] [ref=e630]
+    - generic [ref=e631]:
+      - generic [ref=e632]:
+        - generic [ref=e633]: Digital Reality
+        - paragraph [ref=e634]: Esharq — Turning ambitious ideas into digital reality.
+      - generic [ref=e635]:
+        - generic [ref=e636]:
+          - link "Instagram" [ref=e637] [cursor=pointer]:
+            - /url: "#"
+          - link "Telegram" [ref=e638] [cursor=pointer]:
+            - /url: "#"
+          - link "LinkedIn" [ref=e639] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e640]:
+          - paragraph [ref=e641]: © 2026 © 2026 Esharq IT Agency. All rights reserved.
+          - paragraph [ref=e642]: Crafted with AI & Precision
+    - paragraph [ref=e644]: ESHARQ_SYSTEM_CORE

@@ -36,82 +36,6 @@
 
   "portfolio": [
     {
-      "id": "kids-web",
-      "slug": "akademiya-roditelstva",
-      "category": "web",
-      "color": "#6B8C3E",
-      "year": 2024,
-      "image": "/images/portfolio/kids_web.png",
-      "mockup_type": "laptop",
-
-      "title": {
-        "en": "Conscious Parenting Academy",
-        "ru": "Академия Осознанного Родительства",
-        "uz": "Ongli Ota-onalik Akademiyasi"
-      },
-
-      "short_desc": {
-        "en": "Parenting education platform with courses, calendar and expert articles",
-        "ru": "Образовательная платформа для родителей с курсами, календарём и статьями экспертов",
-        "uz": "Kurslar, kalendar va ekspert maqolalari bilan ota-onalik ta'lim platformasi"
-      },
-
-      "tags": {
-        "en": ["Web Design", "UI/UX", "Education", "Landing Page"],
-        "ru": ["Веб-дизайн", "UI/UX", "Образование", "Лендинг"],
-        "uz": ["Veb-dizayn", "UI/UX", "Ta'lim", "Landing Sahifa"]
-      },
-
-      "details": {
-        "client": "Akademiya Osoznannogo Roditelstva",
-        "industry": {
-          "en": "Education / Parenting",
-          "ru": "Образование / Родительство",
-          "uz": "Ta'lim / Ota-onalik"
-        },
-        "services": {
-          "en": ["UI Design", "Web Development", "Branding"],
-          "ru": ["UI-дизайн", "Веб-разработка", "Брендинг"],
-          "uz": ["UI Dizayn", "Veb Dasturlash", "Brending"]
-        },
-        "description": {
-          "en": "A warm and nature-inspired educational platform for conscious parenting. Features online courses, expert blogs, event calendar, and community access. Designed with an earthy green palette and soft typography to reflect trust and care.",
-          "ru": "Тёплая образовательная платформа для осознанного родительства. Включает онлайн-курсы, блог экспертов, календарь событий и доступ к сообществу. Оформлена в природных зелёных тонах с мягкой типографикой, отражающей доверие и заботу.",
-          "uz": "Ongli ota-onalik uchun iliq va tabiatga ilhomlangan ta'lim platformasi. Onlayn kurslar, ekspert bloglari, tadbir taqvimi va jamiyatga kirish imkoniyatlari mavjud. Ishonch va g'amxo'rlikni ifodalovchi yashil ranglar va yumshoq tipografiya bilan bezatilgan."
-        },
-        "features": {
-          "en": [
-            "Course catalog with enrollment",
-            "Expert article blog",
-            "Event & webinar calendar",
-            "User authentication",
-            "Social media integration"
-          ],
-          "ru": [
-            "Каталог курсов с записью",
-            "Блог статей от экспертов",
-            "Календарь мероприятий и вебинаров",
-            "Авторизация пользователей",
-            "Интеграция с социальными сетями"
-          ],
-          "uz": [
-            "Ro'yxatdan o'tish bilan kurslar katalogi",
-            "Ekspert maqolalari blogi",
-            "Tadbirlar va vebinarlar taqvimi",
-            "Foydalanuvchi autentifikatsiyasi",
-            "Ijtimoiy tarmoqlar integratsiyasi"
-          ]
-        },
-        "stack": ["Next.js", "Tailwind CSS", "Figma"],
-        "result": {
-          "en": "Clean, conversion-focused landing page with warm aesthetic that resonates with young parents",
-          "ru": "Чистый лендинг с фокусом на конверсию и тёплой эстетикой, близкой молодым родителям",
-          "uz": "Yosh ota-onalarga yaqin iliq estetikada konversiyaga yo'naltirilgan toza landing sahifa"
-        }
-      }
-    },
-
-    {
       "id": "marketing-agency",
       "slug": "marketing-agency-services",
       "category": "marketing",
@@ -458,97 +382,78 @@
         }
       }
     },
-
     {
-      "id": "travelers-coffee-app",
-      "slug": "travelers-coffee-mobile-app",
-      "category": "app",
-      "color": "#2D7A3A",
+      "id": "kids-web",
+      "slug": "akademiya-roditelstva",
+      "category": "web",
+      "color": "#6B8C3E",
       "year": 2024,
-      "images": [
-        "/images/portfolio/trevers_app.png",
-        "/images/portfolio/trevers_app2.png"
-      ],
-      "image": "/images/portfolio/trevers_app.png",
-      "mockup_type": "mobile-multi",
+      "image": "/images/portfolio/kids_web.png",
+      "mockup_type": "laptop",
 
       "title": {
-        "en": "Traveler's Coffee — Mobile App",
-        "ru": "Traveler's Coffee — Мобильное приложение",
-        "uz": "Traveler's Coffee — Mobil Ilova"
+        "en": "Conscious Parenting Academy",
+        "ru": "Академия Осознанного Родительства",
+        "uz": "Ongli Ota-onalik Akademiyasi"
       },
 
       "short_desc": {
-        "en": "Loyalty & ordering mobile app for Traveler's Coffee chain with points, QR and pre-order",
-        "ru": "Мобильное приложение лояльности и заказов для сети Traveler's Coffee с баллами, QR-кодом и предзаказом",
-        "uz": "Traveler's Coffee tarmog'i uchun ballar, QR va oldindan buyurtma bilan sodiqlik va buyurtma mobil ilovasi"
+        "en": "Parenting education platform with courses, calendar and expert articles",
+        "ru": "Образовательная платформа для родителей с курсами, календарём и статьями экспертов",
+        "uz": "Kurslar, kalendar va ekspert maqolalari bilan ota-onalik ta'lim platformasi"
       },
 
       "tags": {
-        "en": ["Mobile App", "UI/UX", "iOS", "Loyalty Program"],
-        "ru": ["Мобильное приложение", "UI/UX", "iOS", "Программа лояльности"],
-        "uz": ["Mobil Ilova", "UI/UX", "iOS", "Sodiqlik Dasturi"]
+        "en": ["Web Design", "UI/UX", "Education", "Landing Page"],
+        "ru": ["Веб-дизайн", "UI/UX", "Образование", "Лендинг"],
+        "uz": ["Veb-dizayn", "UI/UX", "Ta'lim", "Landing Sahifa"]
       },
 
       "details": {
-        "client": "Traveler's Coffee",
+        "client": "Akademiya Osoznannogo Roditelstva",
         "industry": {
-          "en": "F&B / Coffee Chain",
-          "ru": "Общепит / Сеть кофеен",
-          "uz": "Oziq-ovqat va ichimlik / Kofe tarmog'i"
+          "en": "Education / Parenting",
+          "ru": "Образование / Родительство",
+          "uz": "Ta'lim / Ota-onalik"
         },
         "services": {
-          "en": ["Mobile App Design", "UI/UX", "iOS & Android Development"],
-          "ru": [
-            "Дизайн мобильного приложения",
-            "UI/UX",
-            "Разработка для iOS и Android"
-          ],
-          "uz": ["Mobil Ilova Dizayni", "UI/UX", "iOS va Android Dasturlash"]
+          "en": ["UI Design", "Web Development", "Branding"],
+          "ru": ["UI-дизайн", "Веб-разработка", "Брендинг"],
+          "uz": ["UI Dizayn", "Veb Dasturlash", "Brending"]
         },
         "description": {
-          "en": "A fully designed loyalty and ordering app for Traveler's Coffee — a popular coffee chain. Features a points wallet (17,340 pts), stamp card system (get 7th coffee free), QR code scanner, menu categories, gift coffee feature, location finder map, and a news feed. All screens designed in the brand's signature green and orange palette.",
-          "ru": "Полностью разработанное приложение лояльности и заказов для Traveler's Coffee — популярной сети кофеен. Включает кошелёк баллов (17 340 баллов), систему штампов (7-й кофе в подарок), сканер QR-кода, категории меню, функцию подарка кофе, карту локаций и ленту новостей. Все экраны выполнены в фирменной зелёно-оранжевой палитре бренда.",
-          "uz": "Traveler's Coffee — mashhur kofe tarmog'i uchun to'liq ishlab chiqilgan sodiqlik va buyurtma ilovasi. Ballar hamyoni (17 340 ball), shtamp kartochkasi tizimi (7-chi kofe bepul), QR-kod skaneri, menyu toifalari, kofe sovg'a qilish funksiyasi, joylashuv xaritasi va yangiliklar lentasi mavjud. Barcha ekranlar brendning yashil va to'q sariq rang sxemasida yaratilgan."
+          "en": "A warm and nature-inspired educational platform for conscious parenting. Features online courses, expert blogs, event calendar, and community access. Designed with an earthy green palette and soft typography to reflect trust and care.",
+          "ru": "Тёплая образовательная платформа для осознанного родительства. Включает онлайн-курсы, блог экспертов, календарь событий и доступ к сообществу. Оформлена в природных зелёных тонах с мягкой типографикой, отражающей доверие и заботу.",
+          "uz": "Ongli ota-onalik uchun iliq va tabiatga ilhomlangan ta'lim platformasi. Onlayn kurslar, ekspert bloglari, tadbir taqvimi va jamiyatga kirish imkoniyatlari mavjud. Ishonch va g'amxo'rlikni ifodalovchi yashil ranglar va yumshoq tipografiya bilan bezatilgan."
         },
         "features": {
           "en": [
-            "Points wallet with level progress bar (Welcome — 23%)",
-            "Stamp card: collect 3/6 toward a free coffee",
-            "QR code for earning & spending points",
-            "Pre-order functionality",
-            "Gift a coffee to friends",
-            "All locations map (Yunusabad & more)",
-            "News & promotions feed",
-            "Transaction history"
+            "Course catalog with enrollment",
+            "Expert article blog",
+            "Event & webinar calendar",
+            "User authentication",
+            "Social media integration"
           ],
           "ru": [
-            "Кошелёк баллов с прогресс-баром уровня (Welcome — 23%)",
-            "Штамп-карта: 3/6 к бесплатному кофе",
-            "QR-код для начисления и списания баллов",
-            "Функция предзаказа",
-            "Подарить кофе друзьям",
-            "Карта всех локаций (Юнусабад и другие)",
-            "Лента новостей и акций",
-            "История транзакций"
+            "Каталог курсов с записью",
+            "Блог статей от экспертов",
+            "Календарь мероприятий и вебинаров",
+            "Авторизация пользователей",
+            "Интеграция с социальными сетями"
           ],
           "uz": [
-            "Daraja taraqqiyoti paneli bilan ballar hamyoni (Welcome — 23%)",
-            "Shtamp kartochka: bepul kofe uchun 3/6",
-            "Ball yig'ish va sarflash uchun QR-kod",
-            "Oldindan buyurtma funksiyasi",
-            "Do'stlarga kofe sovg'a qilish",
-            "Barcha joylashuvlar xaritasi (Yunusobod va boshqalar)",
-            "Yangiliklar va aksiyalar lentasi",
-            "Tranzaksiyalar tarixi"
+            "Ro'yxatdan o'tish bilan kurslar katalogi",
+            "Ekspert maqolalari blogi",
+            "Tadbirlar va vebinarlar taqvimi",
+            "Foydalanuvchi autentifikatsiyasi",
+            "Ijtimoiy tarmoqlar integratsiyasi"
           ]
         },
-        "stack": ["React Native", "Figma", "iOS / Android"],
-        "screens": 8,
+        "stack": ["Next.js", "Tailwind CSS", "Figma"],
         "result": {
-          "en": "Intuitive loyalty app that increases repeat visits and deepens customer engagement for the coffee chain",
-          "ru": "Интуитивное приложение лояльности, повышающее повторные визиты и вовлечённость клиентов кофейной сети",
-          "uz": "Kofe tarmog'i uchun takroriy tashrif buyurishlarni oshiradigan va mijozlar ishtiroqini chuqurlashtiruvchi intuitiv sodiqlik ilovasi"
+          "en": "Clean, conversion-focused landing page with warm aesthetic that resonates with young parents",
+          "ru": "Чистый лендинг с фокусом на конверсию и тёплой эстетикой, близкой молодым родителям",
+          "uz": "Yosh ota-onalarga yaqin iliq estetikada konversiyaga yo'naltirilgan toza landing sahifa"
         }
       }
     }

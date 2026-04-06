@@ -23,20 +23,27 @@ export const NeuralBackground = () => {
     let animationFrameId: number
     let particles: Particle[] = []
 
-    const PARTICLE_COUNT = 100
+    const getParticleCount = () => {
+      const area = window.innerWidth * window.innerHeight
+      // Base calculation: 1 particle per 10,000 pixels, min 60, max 250
+      return Math.min(Math.max(Math.floor(area / 10000), 60), 250)
+    }
+
+    let particleCount = 100
     const CONNECTION_DIST = 150
-    const CONNECTION_DIST_SQ = CONNECTION_DIST * CONNECTION_DIST // avoid sqrt in hot path
+    const CONNECTION_DIST_SQ = CONNECTION_DIST * CONNECTION_DIST
     const MOUSE_RADIUS = 200
     const MOUSE_RADIUS_SQ = MOUSE_RADIUS * MOUSE_RADIUS
 
     const resize = () => {
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
+      particleCount = getParticleCount()
       initParticles()
     }
 
     const initParticles = () => {
-      particles = Array.from({ length: PARTICLE_COUNT }, () => ({
+      particles = Array.from({ length: particleCount }, () => ({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         vx: (Math.random() - 0.5) * 0.5,

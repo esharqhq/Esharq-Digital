@@ -47,7 +47,11 @@ export default async function RootLayout({
       <body suppressHydrationWarning>
         <Preloader />
         <SmoothScrollProvider>
-          <Navbar dict={dict.nav} lang={lang} />
+          <Navbar 
+            navDict={dict.nav} 
+            contactDict={dict.contact} 
+            lang={lang} 
+          />
           {children}
           <Footer dict={dict.footer} />
         </SmoothScrollProvider>

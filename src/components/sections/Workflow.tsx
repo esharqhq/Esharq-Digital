@@ -56,6 +56,7 @@ export const Workflow = ({ dict }: { dict: any }) => {
 
   return (
     <section
+      id="workflow"
       ref={containerRef}
       className="relative py-32 bg-[#050505] overflow-hidden flex flex-col items-center"
     >

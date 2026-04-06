@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import { NeuralBackground } from '@/components/NeuralBackground'
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
+import { useLenis } from 'lenis/react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -14,6 +15,15 @@ export const Showcase = ({ dict }: { dict: any }) => {
   const showcaseRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
   const bgRef = useRef<HTMLDivElement>(null)
+  const lenis = useLenis()
+
+  const handleScroll = (target: string) => {
+    if (lenis) {
+      lenis.scrollTo(target)
+    } else {
+      document.querySelector(target)?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   useGSAP(
     () => {
@@ -81,17 +91,20 @@ export const Showcase = ({ dict }: { dict: any }) => {
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center w-full px-4 sm:px-0">
           <Button
-            size="lg"
-            className="w-full sm:w-auto bg-[#27DFE9] text-black hover:bg-white transition-all duration-500 h-14 sm:h-16 px-8 sm:px-12 text-lg sm:text-xl font-black rounded-none group shadow-[0_0_30px_rgba(39,223,233,0.3)]"
+            variant="brand"
+            size="xl"
+            className="w-full sm:w-auto"
+            onClick={() => handleScroll('#solutions')}
           >
             {dict.startBtn}
-            <ArrowRight className="ml-2 group-hover:translate-x-2 transition-transform" />
+            <ArrowRight className="group-hover/button:translate-x-2 transition-transform" />
           </Button>
 
           <Button
-            variant="outline"
-            size="lg"
-            className="w-full sm:w-auto h-14 sm:h-16 px-8 sm:px-12 text-lg sm:text-xl font-bold rounded-none border-[#27DFE9]/50 text-[#27DFE9] hover:bg-[#27DFE9]/10 uppercase"
+            variant="brandOutline"
+            size="xl"
+            className="w-full sm:w-auto"
+            onClick={() => handleScroll('#portfolio')}
           >
             {dict.caseBtn}
           </Button>

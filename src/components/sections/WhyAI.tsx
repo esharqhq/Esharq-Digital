@@ -256,8 +256,8 @@ export const WhyAI = ({ dict }: { dict: any }) => {
           </p>
         </div>
 
-        <div className="absolute -bottom-40 left-0 w-full text-center opacity-[0.02] pointer-events-none z-0">
-          <h3 className="text-[20rem] font-black tracking-tighter uppercase leading-none text-[#27DFE9]">
+        <div className="absolute -bottom-10 md:-bottom-40 left-0 w-full text-center opacity-[0.02] pointer-events-none z-0 select-none">
+          <h3 className="text-[5rem] sm:text-[10rem] md:text-[15rem] lg:text-[20rem] font-black tracking-tighter uppercase leading-none text-[#27DFE9]">
             ESHARQ
           </h3>
         </div>
