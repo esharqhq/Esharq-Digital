@@ -6,6 +6,7 @@ import { Preloader } from "@/components/layout/Preloader";
 import SmoothScrollProvider from "@/providers/SmoothScrollProvider";
 import { getDictionary } from "@/lib/getDictionary";
 import type { Language } from "@/lib/dictionaries";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://esharq.com"),
@@ -102,6 +103,7 @@ export default async function RootLayout({
     <html lang={lang} suppressHydrationWarning>
       <head></head>
       <body suppressHydrationWarning>
+        <Analytics />
         <Preloader />
         <SmoothScrollProvider>
           <Navbar navDict={dict.nav} contactDict={dict.contact} lang={lang} />
