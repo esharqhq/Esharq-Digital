@@ -36,7 +36,7 @@ export const Contact = ({ dict }: { dict: any }) => {
     >
       <div className="absolute inset-0 bg-[#080808] z-0" />
       <NeuralPulseBackground />
-      
+
       {/* Supplemental glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#27DFE9]/5 blur-[150px] pointer-events-none z-0" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#27DFE9]/3 blur-[120px] pointer-events-none z-0" />
@@ -58,7 +58,7 @@ export const Contact = ({ dict }: { dict: any }) => {
               </span>
             </h2>
             <div className="absolute -bottom-10 -right-10 opacity-[0.03] pointer-events-none">
-               <Zap size={200} className="text-[#27DFE9]" />
+              <Zap size={200} className="text-[#27DFE9]" />
             </div>
           </div>
 
@@ -67,12 +67,14 @@ export const Contact = ({ dict }: { dict: any }) => {
               <p className="text-[9px] uppercase tracking-[0.4em] text-gray-600 mb-2">
                 {dict.protocol}
               </p>
-              <div className="flex items-center gap-4">
-                <Mail size={16} className="text-[#27DFE9]" />
-                <span className="text-lg font-bold text-white group-hover:text-[#27DFE9] transition-colors uppercase tracking-widest">
-                  hello@esharq.ai
-                </span>
-              </div>
+              <a href="mailto:info@esharq.com">
+                <div className="flex items-center gap-4">
+                  <Mail size={16} className="text-[#27DFE9]" />
+                  <span className="text-lg font-bold text-white group-hover:text-[#27DFE9] transition-colors uppercase tracking-widest">
+                    info@esharq.com
+                  </span>
+                </div>
+              </a>
             </div>
 
             <div className="group cursor-pointer">
@@ -82,9 +84,22 @@ export const Contact = ({ dict }: { dict: any }) => {
               <div className="flex items-center gap-4">
                 <Globe size={16} className="text-[#27DFE9]" />
                 <span className="text-lg font-bold text-white group-hover:text-[#27DFE9] transition-colors uppercase tracking-widest">
-                  Tashkent, UZ
+                  Global
                 </span>
               </div>
+            </div>
+            <div className="group cursor-pointer">
+              <p className="text-[9px] uppercase tracking-[0.4em] text-gray-600 mb-2">
+                {dict.phone}
+              </p>
+              <a href="tel:+971544024202">
+                <div className="flex items-center gap-4">
+                  <Globe size={16} className="text-[#27DFE9]" />
+                  <span className="text-lg font-bold text-white group-hover:text-[#27DFE9] transition-colors uppercase tracking-widest">
+                    +971 54 402 42 02
+                  </span>
+                </div>
+              </a>
             </div>
           </div>
         </div>

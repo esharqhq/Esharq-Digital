@@ -7,6 +7,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Brain, Zap, User, Network } from "lucide-react";
 import type { ReactNode } from "react";
 import SectionTitle from "../SectionTitle";
+import Image from "next/image";
+import Logo from "../../../public/logo.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,21 +53,6 @@ export const WhyAI = ({ dict }: { dict: any }) => {
 
   useGSAP(
     () => {
-      gsap.fromTo(
-        ".neural-laser-solid",
-        {
-          strokeDasharray: "0, 1000",
-          strokeDashoffset: 0,
-        },
-        {
-          strokeDasharray: "150, 1000",
-          strokeDashoffset: -1000,
-          duration: 3,
-          repeat: -1,
-          ease: "linear",
-        },
-      );
-
       gsap.to(".bg-glow-ball", {
         x: "random(-150, 150)",
         y: "random(-150, 150)",
@@ -102,12 +89,16 @@ export const WhyAI = ({ dict }: { dict: any }) => {
       <div className="absolute inset-0 opacity-[0.03] text-[10px] font-mono text-[#27DFE9] overflow-hidden select-none pointer-events-none p-4">
         {matrixLines.map(({ id, code }) => (
           <p key={id} className="whitespace-nowrap leading-none mb-1">
-            {code} // STABLE_CONNECTION // NEURAL_LINK_V4 // DEPLOYMENT_READY
+            {code}
           </p>
         ))}
       </div>
 
-      <SectionTitle title1={dict.title1} title2={dict.title2} />
+      <SectionTitle
+        title1={dict.title1}
+        title2={dict.title2}
+        description={dict.description}
+      />
 
       <div className="w-full max-w-7xl relative z-10">
         <svg
@@ -185,12 +176,9 @@ export const WhyAI = ({ dict }: { dict: any }) => {
           <div className="lg:col-span-2 flex flex-col items-center">
             <div className="relative group">
               <div className="absolute inset-0 bg-[#27DFE9] blur-3xl opacity-20 group-hover:opacity-40 transition-opacity" />
-              <div className="w-20 h-20 rounded-2xl bg-[#0a0a0a] border border-[#27DFE9]/50 flex items-center justify-center rotate-45 group-hover:rotate-90 transition-transform duration-700">
-                <Brain
-                  className="text-[#27DFE9] -rotate-45 group-hover:-rotate-90 transition-transform duration-700"
-                  size={32}
-                />
-              </div>
+              {/* <div className="w-20 h-20 rounded-2xl bg-[#0a0a0a] border border-[#27DFE9]/50 flex items-center justify-center rotate-45 transition-transform duration-700"> */}
+              <Image src={Logo} alt="Logo" width={120} height={120} priority />
+              {/* </div> */}
             </div>
             <div className="h-24 w-[1px] bg-gradient-to-b from-[#27DFE9] to-transparent mt-8" />
           </div>

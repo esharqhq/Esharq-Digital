@@ -8,16 +8,29 @@ import { getDictionary } from "@/lib/getDictionary";
 import type { Language } from "@/lib/dictionaries";
 
 export const metadata: Metadata = {
-  title: "Esharq Digital.",
+  metadataBase: new URL("https://esharq.com"),
+  title: {
+    default: "Esharq",
+    template: "%s | Esharq",
+  },
   description:
-    "We build the digital systems that help brands grow faster, look better, and work smarter — without the usual headaches.",
+    "Esharq Digital is an AI-focused IT agency that builds smart digital solutions — web development, mobile apps, AI integration, branding, and cybersecurity for businesses worldwide.",
   keywords: [
-    "AI",
-    "IT Agency",
-    "Web Development",
-    "Digital Solutions",
-    "Tashkent",
+    "AI agency",
+    "IT agency",
+    "web development",
+    "mobile app development",
+    "AI integration",
+    "digital solutions",
+    "UI/UX design",
+    "branding",
+    "cybersecurity",
+    "Esharq",
+    "Esharq Digital",
   ],
+  authors: [{ name: "Esharq Digital", url: "https://esharq.com" }],
+  creator: "Esharq Digital",
+  publisher: "Esharq Digital",
   icons: {
     icon: [
       { url: "/svg/favicon.ico" },
@@ -29,6 +42,50 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/svg/site.webmanifest",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://esharq.com",
+    siteName: "Esharq Digital",
+    title: "Esharq Digital — AI-Powered IT Agency",
+    description:
+      "We build smart digital solutions powered by AI — web development, mobile apps, branding, and more.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Esharq Digital — AI-Powered IT Agency",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Esharq Digital — AI-Powered IT Agency",
+    description:
+      "AI-focused IT agency building smart digital solutions for businesses worldwide.",
+    images: ["/og-image.png"],
+    creator: "@esharqofficial",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://esharq.com",
+    languages: {
+      en: "https://esharq.com/en",
+      uz: "https://esharq.com/uz",
+      ru: "https://esharq.com/ru",
+    },
+  },
 };
 
 export default async function RootLayout({
@@ -47,11 +104,7 @@ export default async function RootLayout({
       <body suppressHydrationWarning>
         <Preloader />
         <SmoothScrollProvider>
-          <Navbar 
-            navDict={dict.nav} 
-            contactDict={dict.contact} 
-            lang={lang} 
-          />
+          <Navbar navDict={dict.nav} contactDict={dict.contact} lang={lang} />
           {children}
           <Footer dict={dict.footer} />
         </SmoothScrollProvider>

@@ -36,99 +36,6 @@
 
   "portfolio": [
     {
-      "id": "marketing-agency",
-      "slug": "marketing-agency-services",
-      "category": "marketing",
-      "color": "#00C8E0",
-      "year": 2024,
-      "images": [
-        "/images/portfolio/marketing_mark1.png",
-        "/images/portfolio/marketing_mark2.png",
-        "/images/portfolio/marketing_mark3.png"
-      ],
-      "image": "/images/portfolio/marketing_mark1.png",
-      "mockup_type": "screen",
-
-      "title": {
-        "en": "Digital Marketing Agency",
-        "ru": "Диджитал Маркетинговое Агентство",
-        "uz": "Raqamli Marketing Agentligi"
-      },
-
-      "short_desc": {
-        "en": "Full-service marketing platform with service showcase and media planning visuals",
-        "ru": "Полный комплекс маркетинговых услуг с визуализацией сервисов и медиапланирования",
-        "uz": "Xizmatlar va media rejalashtirish vizuallari bilan to'liq marketing platformasi"
-      },
-
-      "tags": {
-        "en": ["Marketing", "Presentation Design", "Infographic", "Strategy"],
-        "ru": ["Маркетинг", "Дизайн презентаций", "Инфографика", "Стратегия"],
-        "uz": ["Marketing", "Taqdimot Dizayni", "Infografika", "Strategiya"]
-      },
-
-      "details": {
-        "client": "Digital Marketing Agency",
-        "industry": {
-          "en": "Marketing & Advertising",
-          "ru": "Маркетинг и реклама",
-          "uz": "Marketing va reklama"
-        },
-        "services": {
-          "en": [
-            "Presentation Design",
-            "Infographic Design",
-            "Brand Strategy Visuals"
-          ],
-          "ru": [
-            "Дизайн презентаций",
-            "Инфографика",
-            "Визуализация бренд-стратегии"
-          ],
-          "uz": [
-            "Taqdimot Dizayni",
-            "Infografika Dizayni",
-            "Brend Strategiyasi Vizuallari"
-          ]
-        },
-        "description": {
-          "en": "A complete visual marketing toolkit including 8 service cards (Research, Strategy, Funnel, Content Plan, Content Creation, Ads, Analytics, Growth) connected with a flowing dotted path. Also includes a Budget Allocation & Funnel Optimization infographic with Cold, Warm, and Awareness audience breakdown.",
-          "ru": "Полный визуальный маркетинговый набор, включающий 8 карточек услуг (Исследования, Стратегия, Воронка, Контент-план, Создание контента, Реклама, Аналитика, Рост) соединённых пунктирной линией. Также включает инфографику по распределению бюджета и оптимизации воронки с разбивкой по холодной, тёплой аудитории и узнаваемости.",
-          "uz": "8 ta xizmat kartochkasi (Tadqiqot, Strategiya, Voronka, Kontent Rejasi, Kontent Yaratish, Reklama, Analitika, O'sish) dan iborat to'liq vizual marketing to'plami. Shuningdek, sovuq, iliq auditoriya va xabardorlik bo'yicha byudjet taqsimlash infografikasi mavjud."
-        },
-        "features": {
-          "en": [
-            "8-service card grid with neon glow aesthetic",
-            "LinkedIn integration mockup",
-            "Media Planning infographic",
-            "Budget allocation chart (Cold / Warm / Awareness)",
-            "Dark tech-futuristic visual style"
-          ],
-          "ru": [
-            "Сетка из 8 карточек услуг с неоновым свечением",
-            "Макет интеграции с LinkedIn",
-            "Инфографика медиапланирования",
-            "Диаграмма распределения бюджета (Холодная / Тёплая / Узнаваемость)",
-            "Тёмный технофутуристичный визуальный стиль"
-          ],
-          "uz": [
-            "Neon yoritish bilan 8 ta xizmat kartochkasi tartibi",
-            "LinkedIn integratsiya maketi",
-            "Media rejalashtirish infografika",
-            "Byudjet taqsimlash diagrammasi (Sovuq / Iliq / Xabardorlik)",
-            "To'q texno-futuristik vizual uslub"
-          ]
-        },
-        "stack": ["Figma", "After Effects", "Canva Pro"],
-        "result": {
-          "en": "High-impact marketing visuals that clearly communicate agency capabilities to potential clients",
-          "ru": "Эффектные маркетинговые визуалы, чётко демонстрирующие возможности агентства потенциальным клиентам",
-          "uz": "Agentlik imkoniyatlarini potentsial mijozlarga aniq yetkazuvchi yuqori ta'sirli marketing vizuallari"
-        }
-      }
-    },
-
-    {
       "id": "maryam-brand",
       "slug": "maryam-fashion-brand",
       "category": "web",
@@ -221,6 +128,99 @@
           "en": "Cohesive luxury brand identity that translates seamlessly from physical packaging to digital storefront",
           "ru": "Цельная люксовая айдентика, органично переходящая от физической упаковки к цифровой витрине",
           "uz": "Jismoniy qadoqlashdan raqamli do'konga muammosiz o'tadigan yaxlit hashamatli brend identifikatsiyasi"
+        }
+      }
+    },
+
+    {
+      "id": "marketing-agency",
+      "slug": "marketing-agency-services",
+      "category": "marketing",
+      "color": "#00C8E0",
+      "year": 2024,
+      "images": [
+        "/images/portfolio/marketing_mark1.png",
+        "/images/portfolio/marketing_mark2.png",
+        "/images/portfolio/marketing_mark3.png"
+      ],
+      "image": "/images/portfolio/marketing_mark1.png",
+      "mockup_type": "screen",
+
+      "title": {
+        "en": "Digital Marketing Agency",
+        "ru": "Диджитал Маркетинговое Агентство",
+        "uz": "Raqamli Marketing Agentligi"
+      },
+
+      "short_desc": {
+        "en": "Full-service marketing platform with service showcase and media planning visuals",
+        "ru": "Полный комплекс маркетинговых услуг с визуализацией сервисов и медиапланирования",
+        "uz": "Xizmatlar va media rejalashtirish vizuallari bilan to'liq marketing platformasi"
+      },
+
+      "tags": {
+        "en": ["Marketing", "Presentation Design", "Infographic", "Strategy"],
+        "ru": ["Маркетинг", "Дизайн презентаций", "Инфографика", "Стратегия"],
+        "uz": ["Marketing", "Taqdimot Dizayni", "Infografika", "Strategiya"]
+      },
+
+      "details": {
+        "client": "Digital Marketing Agency",
+        "industry": {
+          "en": "Marketing & Advertising",
+          "ru": "Маркетинг и реклама",
+          "uz": "Marketing va reklama"
+        },
+        "services": {
+          "en": [
+            "Presentation Design",
+            "Infographic Design",
+            "Brand Strategy Visuals"
+          ],
+          "ru": [
+            "Дизайн презентаций",
+            "Инфографика",
+            "Визуализация бренд-стратегии"
+          ],
+          "uz": [
+            "Taqdimot Dizayni",
+            "Infografika Dizayni",
+            "Brend Strategiyasi Vizuallari"
+          ]
+        },
+        "description": {
+          "en": "A complete visual marketing toolkit including 8 service cards (Research, Strategy, Funnel, Content Plan, Content Creation, Ads, Analytics, Growth) connected with a flowing dotted path. Also includes a Budget Allocation & Funnel Optimization infographic with Cold, Warm, and Awareness audience breakdown.",
+          "ru": "Полный визуальный маркетинговый набор, включающий 8 карточек услуг (Исследования, Стратегия, Воронка, Контент-план, Создание контента, Реклама, Аналитика, Рост) соединённых пунктирной линией. Также включает инфографику по распределению бюджета и оптимизации воронки с разбивкой по холодной, тёплой аудитории и узнаваемости.",
+          "uz": "8 ta xizmat kartochkasi (Tadqiqot, Strategiya, Voronka, Kontent Rejasi, Kontent Yaratish, Reklama, Analitika, O'sish) dan iborat to'liq vizual marketing to'plami. Shuningdek, sovuq, iliq auditoriya va xabardorlik bo'yicha byudjet taqsimlash infografikasi mavjud."
+        },
+        "features": {
+          "en": [
+            "8-service card grid with neon glow aesthetic",
+            "LinkedIn integration mockup",
+            "Media Planning infographic",
+            "Budget allocation chart (Cold / Warm / Awareness)",
+            "Dark tech-futuristic visual style"
+          ],
+          "ru": [
+            "Сетка из 8 карточек услуг с неоновым свечением",
+            "Макет интеграции с LinkedIn",
+            "Инфографика медиапланирования",
+            "Диаграмма распределения бюджета (Холодная / Тёплая / Узнаваемость)",
+            "Тёмный технофутуристичный визуальный стиль"
+          ],
+          "uz": [
+            "Neon yoritish bilan 8 ta xizmat kartochkasi tartibi",
+            "LinkedIn integratsiya maketi",
+            "Media rejalashtirish infografika",
+            "Byudjet taqsimlash diagrammasi (Sovuq / Iliq / Xabardorlik)",
+            "To'q texno-futuristik vizual uslub"
+          ]
+        },
+        "stack": ["Figma", "After Effects", "Canva Pro"],
+        "result": {
+          "en": "High-impact marketing visuals that clearly communicate agency capabilities to potential clients",
+          "ru": "Эффектные маркетинговые визуалы, чётко демонстрирующие возможности агентства потенциальным клиентам",
+          "uz": "Agentlik imkoniyatlarini potentsial mijozlarga aniq yetkazuvchi yuqori ta'sirli marketing vizuallari"
         }
       }
     },

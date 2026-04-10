@@ -10,6 +10,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/logo.png";
 import { ContactForm } from "../ContactForm";
+import { VapiCallModal } from "../VapiCallModal";
+import { LanguageSelector } from "./LanguageSelector";
 
 export const Navbar = ({
   navDict,
@@ -23,6 +25,7 @@ export const Navbar = ({
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isVapiOpen, setIsVapiOpen] = useState(false);
   const lenis = useLenis();
   const pathname = usePathname();
 
@@ -47,11 +50,6 @@ export const Navbar = ({
     { label: navDict.contact, href: "#workflow" },
   ];
 
-  const langs = ["en", "uz", "ru"];
-  const nextLang = langs[(langs.indexOf(lang) + 1) % langs.length];
-  const nextLangPath =
-    pathname.replace(`/${lang}`, `/${nextLang}`) || `/${nextLang}`;
-
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
     target: string,
@@ -71,7 +69,7 @@ export const Navbar = ({
         <nav
           className={`
             flex justify-between items-center transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]
-            pointer-events-auto overflow-hidden relative z-50
+            pointer-events-auto relative z-50
             ${
               isScrolled
                 ? "w-full md:w-[90%] lg:w-[60%] py-3 px-6 rounded-full bg-black/60 backdrop-blur-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] mt-2"
@@ -102,18 +100,16 @@ export const Navbar = ({
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4 shrink-0 z-20">
-            <Link
-              href={nextLangPath}
-              className="flex items-center gap-1 text-[9px] font-black tracking-widest uppercase text-white hover:text-[#27DFE9] transition-colors"
-            >
-              <Globe size={12} className="text-[#27DFE9]" />
-              {lang}
-            </Link>
+            <LanguageSelector lang={lang} />
 
             <Button
               variant="brandOutline"
-              onClick={() => setIsModalOpen(true)}
-              className={isScrolled ? "h-9 px-4 text-[9px] rounded-full" : "h-12 px-8 text-[10px] rounded-none"}
+              onClick={() => setIsVapiOpen(true)}
+              className={
+                isScrolled
+                  ? "h-9 px-4 text-[9px] rounded-full"
+                  : "h-12 px-8 text-[10px] rounded-none"
+              }
             >
               {navDict.connect}
             </Button>
@@ -121,12 +117,7 @@ export const Navbar = ({
 
           {/* Mobile Toggle */}
           <div className="md:hidden flex items-center gap-4 z-20">
-            <Link
-              href={nextLangPath}
-              className="text-[10px] uppercase font-bold text-white flex items-center gap-1"
-            >
-              <Globe size={12} className="text-[#27DFE9]" /> {lang}
-            </Link>
+            <LanguageSelector lang={lang} />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-[#27DFE9]"
@@ -155,12 +146,12 @@ export const Navbar = ({
                 {item.label}
               </a>
             ))}
-            <Button 
-              variant="brand" 
-              size="lg" 
+            <Button
+              variant="brand"
+              size="lg"
               onClick={() => {
                 setMobileMenuOpen(false);
-                setIsModalOpen(true);
+                setIsVapiOpen(true);
               }}
               className="mt-8 w-[80%] h-14"
             >
@@ -173,7 +164,7 @@ export const Navbar = ({
       {/* Contact Modal */}
       <AnimatePresence>
         {isModalOpen && (
-          <div 
+          <div
             className="fixed inset-0 z-[10000] flex items-center justify-center p-4 md:p-8"
             data-lenis-prevent
           >
@@ -217,11 +208,11 @@ export const Navbar = ({
                     </span>
                   </h2>
                 </div>
-                <ContactForm 
-                  dict={contactDict} 
+                <ContactForm
+                  dict={contactDict}
                   onSuccess={() => {
                     setTimeout(() => setIsModalOpen(false), 2500);
-                  }} 
+                  }}
                 />
               </div>
 
@@ -231,7 +222,13 @@ export const Navbar = ({
           </div>
         )}
       </AnimatePresence>
+
+      {/* Vapi Voice Call Modal */}
+      <VapiCallModal
+        isOpen={isVapiOpen}
+        onClose={() => setIsVapiOpen(false)}
+        lang={lang}
+      />
     </>
   );
 };
-
