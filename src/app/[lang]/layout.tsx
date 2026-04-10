@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       "We build smart digital solutions powered by AI — web development, mobile apps, branding, and more.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Esharq Digital — AI-Powered IT Agency",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Esharq Digital — AI-Powered IT Agency",
     description:
       "AI-focused IT agency building smart digital solutions for businesses worldwide.",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
     creator: "@esharqofficial",
   },
   robots: {

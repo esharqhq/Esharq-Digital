@@ -106,14 +106,12 @@ export const Workflow = ({ dict }: { dict: any }) => {
                     )}
                   </div>
 
-                  {/* Markaziy tugun */}
                   <div className="absolute left-[6px] sm:left-[21px] md:static md:w-[10%] flex justify-center shrink-0 mt-3 sm:mt-5 md:mt-0 z-10">
                     <div className="step-node w-5 h-5 md:w-6 md:h-6 rounded-full bg-[#111] border-2 border-white/20 transition-all duration-500 relative flex items-center justify-center cursor-pointer group-hover:border-[#27DFE9]">
                       <div className="absolute inset-[-10px] md:inset-[-12px] rounded-full border border-white/5 scale-0 group-hover:scale-100 transition-transform duration-500 animate-[spin_3s_linear_infinite]" />
                     </div>
                   </div>
 
-                  {/* O'ng tomon + barcha mobil */}
                   <div
                     className={`w-full pl-12 sm:pl-20 pt-1 md:pt-0 md:pl-0 md:w-[45%] ${isEven ? "md:hidden" : "md:text-left md:pl-12"}`}
                   >

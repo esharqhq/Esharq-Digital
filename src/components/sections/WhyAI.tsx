@@ -102,7 +102,7 @@ export const WhyAI = ({ dict }: { dict: any }) => {
 
       <div className="w-full max-w-7xl relative z-10">
         <svg
-          className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-60"
+          className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-60 hidden lg:block"
           viewBox="0 0 1200 800"
         >
           <defs>
@@ -176,11 +176,9 @@ export const WhyAI = ({ dict }: { dict: any }) => {
           <div className="lg:col-span-2 flex flex-col items-center">
             <div className="relative group">
               <div className="absolute inset-0 bg-[#27DFE9] blur-3xl opacity-20 group-hover:opacity-40 transition-opacity" />
-              {/* <div className="w-20 h-20 rounded-2xl bg-[#0a0a0a] border border-[#27DFE9]/50 flex items-center justify-center rotate-45 transition-transform duration-700"> */}
               <Image src={Logo} alt="Logo" width={120} height={120} priority />
-              {/* </div> */}
             </div>
-            <div className="h-24 w-[1px] bg-gradient-to-b from-[#27DFE9] to-transparent mt-8" />
+            <div className="h-24 w-[1px] bg-gradient-to-b from-[#27DFE9] to-transparent mt-8 hidden lg:block" />
           </div>
 
           <div className="lg:col-span-5">

@@ -225,9 +225,9 @@ export const Portfolio = ({
               {/* Close button */}
               <button
                 onClick={() => setSelected(null)}
-                className="absolute top-6 right-6 z-50 w-12 h-12 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors border border-white/10"
+                className="absolute top-3 right-3 md:top-6 md:right-6 z-50 w-10 h-10 md:w-12 md:h-12 rounded-full bg-black/60 backdrop-blur-md hover:bg-black/80 flex items-center justify-center transition-colors border border-white/20"
               >
-                <X size={20} className="text-white" />
+                <X size={18} className="text-white" />
               </button>
 
               {/* Image Panel */}

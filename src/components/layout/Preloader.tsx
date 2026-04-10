@@ -44,17 +44,9 @@ export const Preloader = () => {
             setIsLoading(false);
             document.body.style.overflow = "";
 
-            // Barcha ScrollTrigger animatsiyalarni reset qilish
+            // ScrollTrigger pozitsiyalarni qayta hisoblash
             window.scrollTo(0, 0);
-            ScrollTrigger.getAll().forEach((st) => {
-              st.kill(true);
-            });
-            // Sahifani qayta hisoblashga vaqt berish
-            setTimeout(() => {
-              ScrollTrigger.refresh(true);
-              // Custom event — sectionlar eshitadi
-              window.dispatchEvent(new Event("preloader-done"));
-            }, 200);
+            setTimeout(() => ScrollTrigger.refresh(true), 100);
           },
         });
 
