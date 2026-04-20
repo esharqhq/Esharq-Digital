@@ -6,6 +6,7 @@ export const dictionaries = {
       solutions: "Solutions",
       network: "Our Work",
       contact: "How It Works",
+      blog: "Journal",
       connect: "Let's Talk",
     },
     hero: {
@@ -194,12 +195,55 @@ export const dictionaries = {
       right1: "Crafted with AI & Precision",
       right2: "© 2026 Esharq IT Agency. All rights reserved.",
     },
+    blog: {
+      tag: "Journal",
+      title1: "Notes from the",
+      title2: "AI frontline",
+      description:
+        "Honest breakdowns on building digital businesses with AI — the numbers, the trade-offs, the truth.",
+      readArticle: "Read article",
+      minuteRead: "min read",
+      backToBlog: "← Back to Journal",
+      backToHome: "← Home",
+      publishedOn: "Published",
+      englishBadge: "English",
+      emptyState: "More articles on the way.",
+      audit: {
+        nameLabel: "YOUR NAME",
+        namePlaceholder: "First name is fine",
+        businessLabel: "BUSINESS / BRAND",
+        businessPlaceholder: "What you do",
+        contactLabel: "WHATSAPP OR EMAIL",
+        contactPlaceholder: "+1 or email address",
+        stuckLabel: "WHERE YOU'RE STUCK",
+        stuckChoose: "Choose one",
+        stuckOptions: [
+          "Need consistent content — don't have time",
+          "Tried AI tools, not getting results",
+          "Spending too much on tools + freelancers",
+          "Need a website that actually converts",
+          "Want to scale what's already working",
+          "Starting from scratch — need everything",
+        ],
+        usingLabel: "WHAT YOU'RE CURRENTLY USING / SPENDING (OPTIONAL)",
+        usingPlaceholder:
+          "Tools, monthly budget, what you've tried — helps us come prepared",
+        submitDefault: "GET MY FREE AUDIT",
+        submitSending: "SENDING...",
+        footerNote:
+          "We reply within 24 hours. No spam. No sales deck. Just a straight conversation.",
+        received: "AUDIT REQUEST RECEIVED",
+        receivedDesc:
+          "We'll review your setup and reply within 24 hours.",
+      },
+    },
   },
   uz: {
     nav: {
       solutions: "Xizmatlar",
       network: "Loyihalar",
       contact: "Ishlash Tartibi",
+      blog: "Jurnal",
       connect: "Bog'lanish",
     },
     hero: {
@@ -388,12 +432,55 @@ export const dictionaries = {
       right1: "AI va Aniqlik bilan yaratilgan",
       right2: "© 2026 Esharq IT Agentligi. Barcha huquqlar himoyalangan.",
     },
+    blog: {
+      tag: "Jurnal",
+      title1: "AI frontdan",
+      title2: "yozuvlar",
+      description:
+        "AI yordamida raqamli biznes qurish — raqamlar, murosalar va haqiqat haqida ochiq maqolalar.",
+      readArticle: "Maqolani o'qish",
+      minuteRead: "daqiqa o'qish",
+      backToBlog: "← Jurnalga qaytish",
+      backToHome: "← Bosh sahifa",
+      publishedOn: "Chop etildi",
+      englishBadge: "Ingliz tilida",
+      emptyState: "Yangi maqolalar tez orada.",
+      audit: {
+        nameLabel: "ISMINGIZ",
+        namePlaceholder: "Faqat ism yetarli",
+        businessLabel: "BIZNES / BRAND",
+        businessPlaceholder: "Nima bilan shug'ullanasiz",
+        contactLabel: "WHATSAPP YOKI EMAIL",
+        contactPlaceholder: "+998 yoki email manzil",
+        stuckLabel: "QAYSI JOYDA TO'XTAB QOLGANSIZ",
+        stuckChoose: "Bittasini tanlang",
+        stuckOptions: [
+          "Doimiy kontent kerak — vaqt yo'q",
+          "AI vositalarini sinab ko'rdim, natija yo'q",
+          "Vositalar + frilanserlarga ko'p pul ketyapti",
+          "Haqiqatan sotadigan sayt kerak",
+          "Ishlayotgan biznesni kengaytirmoqchiman",
+          "Noldan boshlayman — hammasi kerak",
+        ],
+        usingLabel: "HOZIR NIMADAN FOYDALANYAPSIZ / SARFLAYAPSIZ (IXTIYORIY)",
+        usingPlaceholder:
+          "Vositalar, oylik byudjet, sinab ko'rganlaringiz — bizga tayyor kelishimizga yordam beradi",
+        submitDefault: "BEPUL AUDITNI OLISH",
+        submitSending: "YUBORILMOQDA...",
+        footerNote:
+          "24 soat ichida javob beramiz. Spam yo'q. Sotuv taqdimoti yo'q. Faqat to'g'ridan-to'g'ri suhbat.",
+        received: "AUDIT SO'ROVI QABUL QILINDI",
+        receivedDesc:
+          "Sizning sozlamangizni ko'rib chiqamiz va 24 soat ichida javob beramiz.",
+      },
+    },
   },
   ru: {
     nav: {
       solutions: "Услуги",
       network: "Наши работы",
       contact: "Как это работает",
+      blog: "Журнал",
       connect: "Связаться",
     },
     hero: {
@@ -581,6 +668,48 @@ export const dictionaries = {
       desc: "Esharq — Превращаем амбициозные идеи в цифровую реальность.",
       right1: "Создано с помощью AI и точности",
       right2: "© 2026 Esharq IT Агентство. Все права защищены.",
+    },
+    blog: {
+      tag: "Журнал",
+      title1: "Заметки с",
+      title2: "AI-передовой",
+      description:
+        "Честные разборы построения цифрового бизнеса с AI — цифры, компромиссы, правда.",
+      readArticle: "Читать статью",
+      minuteRead: "мин чтения",
+      backToBlog: "← Назад в журнал",
+      backToHome: "← На главную",
+      publishedOn: "Опубликовано",
+      englishBadge: "На английском",
+      emptyState: "Новые статьи скоро появятся.",
+      audit: {
+        nameLabel: "ВАШЕ ИМЯ",
+        namePlaceholder: "Только имя — этого достаточно",
+        businessLabel: "БИЗНЕС / БРЕНД",
+        businessPlaceholder: "Чем вы занимаетесь",
+        contactLabel: "WHATSAPP ИЛИ EMAIL",
+        contactPlaceholder: "+7 или email-адрес",
+        stuckLabel: "ГДЕ ВЫ ЗАСТРЯЛИ",
+        stuckChoose: "Выберите один",
+        stuckOptions: [
+          "Нужен постоянный контент — нет времени",
+          "Пробовал AI-инструменты, результата нет",
+          "Слишком много трачу на инструменты + фрилансеров",
+          "Нужен сайт, который действительно продаёт",
+          "Хочу масштабировать то, что уже работает",
+          "Начинаю с нуля — нужно всё",
+        ],
+        usingLabel: "ЧТО ИСПОЛЬЗУЕТЕ / ТРАТИТЕ СЕЙЧАС (ОПЦИОНАЛЬНО)",
+        usingPlaceholder:
+          "Инструменты, месячный бюджет, что пробовали — поможет нам прийти подготовленными",
+        submitDefault: "ПОЛУЧИТЬ БЕСПЛАТНЫЙ АУДИТ",
+        submitSending: "ОТПРАВКА...",
+        footerNote:
+          "Отвечаем в течение 24 часов. Никакого спама. Никаких продающих презентаций. Только прямой разговор.",
+        received: "ЗАПРОС НА АУДИТ ПОЛУЧЕН",
+        receivedDesc:
+          "Мы изучим вашу ситуацию и ответим в течение 24 часов.",
+      },
     },
   },
 };

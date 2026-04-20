@@ -108,7 +108,7 @@ export default async function RootLayout({
         <SmoothScrollProvider>
           <Navbar navDict={dict.nav} contactDict={dict.contact} lang={lang} />
           {children}
-          <Footer dict={dict.footer} />
+          <Footer dict={dict.footer} navDict={dict.nav} lang={lang} />
         </SmoothScrollProvider>
       </body>
     </html>

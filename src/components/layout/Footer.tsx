@@ -1,4 +1,14 @@
-export const Footer = ({ dict }: { dict: any }) => {
+import Link from "next/link";
+
+export const Footer = ({
+  dict,
+  navDict,
+  lang,
+}: {
+  dict: any;
+  navDict: any;
+  lang: string;
+}) => {
   const socialLinks = [
     { name: "Instagram", url: "https://www.instagram.com/esharqofficial" },
     { name: "Telegram", url: "https://t.me/esharqofficial" },
@@ -44,6 +54,14 @@ export const Footer = ({ dict }: { dict: any }) => {
           <p className="text-white/30 text-xs font-mono uppercase tracking-widest max-w-md mx-auto leading-relaxed">
             {dict.desc}
           </p>
+          <div className="pt-2">
+            <Link
+              href={`/${lang}/blog`}
+              className="inline-block text-[10px] font-black uppercase tracking-[0.5em] text-[#27DFE9]/60 hover:text-[#27DFE9] transition-colors border-b border-[#27DFE9]/20 hover:border-[#27DFE9] pb-1"
+            >
+              {navDict.blog}
+            </Link>
+          </div>
         </div>
 
         {/* Bottom Section - Socials & Copyright */}

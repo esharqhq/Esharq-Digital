@@ -50,18 +50,33 @@ export const Navbar = ({
     { label: navDict.contact, href: "#workflow" },
   ];
 
+  const homePath = `/${lang}`;
+  const isHome = pathname === homePath || pathname === `${homePath}/`;
+
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
     target: string,
   ) => {
+    // If we're not on the home page, let the browser navigate to /[lang]#target.
+    if (!isHome && target.startsWith("#")) {
+      setMobileMenuOpen(false);
+      return;
+    }
     e.preventDefault();
     setMobileMenuOpen(false);
-    if (lenis) {
-      lenis.scrollTo(target);
-    } else {
-      document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
+    if (target === "body" || target.startsWith("#")) {
+      if (lenis) {
+        lenis.scrollTo(target === "body" ? 0 : target);
+      } else if (target !== "body") {
+        document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
     }
   };
+
+  const anchorHref = (hash: string) =>
+    isHome ? hash : `${homePath}${hash}`;
 
   return (
     <>
@@ -77,25 +92,35 @@ export const Navbar = ({
             }
           `}
         >
-          <div
+          <Link
+            href={homePath}
             className="flex items-center gap-2 cursor-pointer shrink-0 z-20"
-            onClick={(e) => handleSmoothScroll(e as any, "body")}
+            onClick={(e) => {
+              if (isHome) handleSmoothScroll(e as any, "body");
+            }}
           >
             <Image src={Logo} alt="Logo" width={100} height={100} />
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8 lg:gap-12">
             {navItems.map((item) => (
               <a
                 key={item.href}
-                href={item.href}
+                href={anchorHref(item.href)}
                 onClick={(e) => handleSmoothScroll(e, item.href)}
                 className="text-[9px] font-black uppercase tracking-[0.3em] text-[#C8ECED]/40 hover:text-[#27DFE9] transition-colors"
               >
                 {item.label}
               </a>
             ))}
+            <Link
+              href={`/${lang}/blog`}
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-[9px] font-black uppercase tracking-[0.3em] text-[#C8ECED]/40 hover:text-[#27DFE9] transition-colors"
+            >
+              {navDict.blog}
+            </Link>
           </div>
 
           {/* Desktop Actions */}
@@ -139,13 +164,20 @@ export const Navbar = ({
             {navItems.map((item) => (
               <a
                 key={item.href}
-                href={item.href}
+                href={anchorHref(item.href)}
                 onClick={(e) => handleSmoothScroll(e, item.href)}
                 className="text-xl font-black uppercase tracking-[0.4em] text-white hover:text-[#27DFE9] transition-colors"
               >
                 {item.label}
               </a>
             ))}
+            <Link
+              href={`/${lang}/blog`}
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-xl font-black uppercase tracking-[0.4em] text-white hover:text-[#27DFE9] transition-colors"
+            >
+              {navDict.blog}
+            </Link>
             <Button
               variant="brand"
               size="lg"
