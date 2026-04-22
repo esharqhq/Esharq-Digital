@@ -75,7 +75,7 @@ export const ContactForm = ({ dict, onSuccess }: { dict: any; onSuccess?: () => 
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-8 md:space-y-10">
+    <form id="#contact" onSubmit={handleSubmit} className="space-y-8 md:space-y-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
         <div>
           <label className="text-[10px] uppercase tracking-[0.3em] text-[#27DFE9] font-black block mb-4 italic">
