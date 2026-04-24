@@ -9,9 +9,7 @@ const locales = ["en", "uz", "ru"] as const;
 
 export function generateStaticParams() {
   const posts = getAllPosts();
-  return locales.flatMap((lang) =>
-    posts.map((p) => ({ lang, slug: p.slug })),
-  );
+  return locales.flatMap((lang) => posts.map((p) => ({ lang, slug: p.slug })));
 }
 
 export async function generateMetadata({

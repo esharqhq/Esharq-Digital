@@ -1,0 +1,1505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Why You're Losing Deals in Your Sleep — The Realtor's Guide to AI Lead
+      Response | Esharq
+    </title>
+    <meta
+      name="description"
+      content="78% of buyers work with the first agent who responds. The average agent takes 15 hours. Here's how top-producing realtors use AI to respond in under 2 minutes — 24/7."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0c0c0e;
+        --bg-elevated: #141418;
+        --bg-card: #1a1a20;
+        --bg-accent: #e94560;
+        --bg-accent-soft: rgba(233, 69, 96, 0.08);
+        --bg-accent-glow: rgba(233, 69, 96, 0.15);
+        --bg-green: #2ecc71;
+        --bg-green-soft: rgba(46, 204, 113, 0.08);
+        --bg-yellow: #f4a623;
+        --bg-yellow-soft: rgba(244, 166, 35, 0.08);
+        --bg-blue: #3b82f6;
+        --bg-blue-soft: rgba(59, 130, 246, 0.08);
+        --text-primary: #f0ede8;
+        --text-secondary: #9b978f;
+        --text-muted: #5c5a55;
+        --border: rgba(255, 255, 255, 0.06);
+        --border-accent: rgba(233, 69, 96, 0.3);
+        --font-display: "Instrument Serif", Georgia, serif;
+        --font-body: "DM Sans", -apple-system, sans-serif;
+        --font-mono: "JetBrains Mono", monospace;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text-primary);
+        font-family: var(--font-body);
+        font-size: 17px;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      ::selection {
+        background: var(--bg-accent);
+        color: white;
+      }
+
+      /* --- NAV --- */
+      .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: rgba(12, 12, 14, 0.85);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+        padding: 16px 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav-logo {
+        font-family: var(--font-body);
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--text-primary);
+        text-decoration: none;
+      }
+
+      .nav-logo span {
+        color: var(--bg-accent);
+      }
+
+      .nav-cta {
+        background: var(--bg-accent);
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        padding: 10px 24px;
+        border-radius: 6px;
+        transition: all 0.3s;
+      }
+
+      .nav-cta:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 24px rgba(233, 69, 96, 0.3);
+      }
+
+      /* --- HERO --- */
+      .hero {
+        padding: 160px 32px 100px;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(
+          circle,
+          rgba(233, 69, 96, 0.06) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+
+      .hero-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--bg-accent-soft);
+        border: 1px solid var(--border-accent);
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--bg-accent);
+        margin-bottom: 40px;
+      }
+
+      .hero-tag::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--bg-accent);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.3;
+        }
+      }
+
+      .hero h1 {
+        font-family: var(--font-display);
+        font-size: clamp(42px, 6vw, 72px);
+        line-height: 1.08;
+        font-weight: 400;
+        color: var(--text-primary);
+        margin-bottom: 28px;
+        position: relative;
+      }
+
+      .hero h1 em {
+        font-style: italic;
+        color: var(--bg-accent);
+      }
+
+      .hero-sub {
+        font-size: 19px;
+        line-height: 1.7;
+        color: var(--text-secondary);
+        max-width: 620px;
+        margin: 0 auto 48px;
+      }
+
+      .hero-meta {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        color: var(--text-muted);
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .hero-meta span {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      /* --- STAT BAR --- */
+      .stat-bar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        background: var(--border);
+        max-width: 900px;
+        margin: 0 auto 80px;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .stat-item {
+        background: var(--bg-elevated);
+        padding: 36px 24px;
+        text-align: center;
+      }
+
+      .stat-number {
+        font-family: var(--font-mono);
+        font-size: 42px;
+        font-weight: 600;
+        color: var(--bg-accent);
+        line-height: 1;
+        margin-bottom: 8px;
+      }
+
+      .stat-label {
+        font-size: 13px;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+      }
+
+      /* --- ARTICLE --- */
+      .article {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
+
+      .article h2 {
+        font-family: var(--font-display);
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: var(--text-primary);
+        margin: 80px 0 24px;
+      }
+
+      .article h2:first-child {
+        margin-top: 0;
+      }
+
+      .article h3 {
+        font-family: var(--font-body);
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin: 48px 0 16px;
+      }
+
+      .article p {
+        color: var(--text-secondary);
+        margin-bottom: 24px;
+      }
+
+      .article strong {
+        color: var(--text-primary);
+        font-weight: 600;
+      }
+
+      /* --- PULL QUOTE --- */
+      .pull-quote {
+        border-left: 3px solid var(--bg-accent);
+        padding: 24px 0 24px 32px;
+        margin: 48px 0;
+      }
+
+      .pull-quote p {
+        font-family: var(--font-display);
+        font-size: 28px;
+        line-height: 1.4;
+        color: var(--text-primary);
+        font-style: italic;
+        margin: 0;
+      }
+
+      .pull-quote cite {
+        display: block;
+        font-family: var(--font-body);
+        font-size: 13px;
+        font-style: normal;
+        color: var(--text-muted);
+        margin-top: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      /* --- DATA CARDS --- */
+      .data-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 32px;
+        margin: 40px 0;
+      }
+
+      .data-card-header {
+        font-family: var(--font-mono);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: var(--bg-accent);
+        margin-bottom: 20px;
+      }
+
+      /* --- COMPARISON TABLE --- */
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 8px 0 0;
+      }
+
+      .comparison-table th {
+        text-align: left;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--text-muted);
+        padding: 12px 16px;
+        border-bottom: 1px solid var(--border);
+        font-weight: 600;
+      }
+
+      .comparison-table td {
+        padding: 16px;
+        font-size: 15px;
+        color: var(--text-secondary);
+        border-bottom: 1px solid var(--border);
+        vertical-align: top;
+      }
+
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .comparison-table .metric {
+        color: var(--text-primary);
+        font-weight: 600;
+      }
+      .comparison-table .bad {
+        color: var(--bg-accent);
+        font-family: var(--font-mono);
+        font-weight: 600;
+      }
+      .comparison-table .good {
+        color: var(--bg-green);
+        font-family: var(--font-mono);
+        font-weight: 600;
+      }
+
+      /* --- RESPONSE TIME VISUAL --- */
+      .timeline {
+        margin: 24px 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .timeline-row {
+        display: grid;
+        grid-template-columns: 100px 1fr 80px;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .timeline-label {
+        font-size: 13px;
+        color: var(--text-muted);
+        text-align: right;
+        font-weight: 500;
+      }
+
+      .timeline-bar-wrap {
+        height: 32px;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .timeline-bar {
+        height: 100%;
+        border-radius: 6px;
+        transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+      }
+
+      .timeline-pct {
+        font-family: var(--font-mono);
+        font-size: 14px;
+        font-weight: 600;
+        text-align: right;
+      }
+
+      /* --- NUMBER HIGHLIGHT --- */
+      .big-number {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin: 32px 0;
+      }
+
+      .big-number-value {
+        font-family: var(--font-mono);
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 1;
+        color: var(--bg-accent);
+      }
+
+      .big-number-context {
+        font-size: 18px;
+        color: var(--text-secondary);
+        max-width: 400px;
+        line-height: 1.5;
+      }
+
+      /* --- COST CALCULATOR --- */
+      .calculator {
+        background: linear-gradient(
+          135deg,
+          var(--bg-card) 0%,
+          rgba(233, 69, 96, 0.04) 100%
+        );
+        border: 1px solid var(--border-accent);
+        border-radius: 16px;
+        padding: 40px;
+        margin: 48px 0;
+      }
+
+      .calculator-title {
+        font-family: var(--font-display);
+        font-size: 28px;
+        color: var(--text-primary);
+        margin-bottom: 8px;
+      }
+
+      .calculator-sub {
+        font-size: 14px;
+        color: var(--text-muted);
+        margin-bottom: 28px;
+      }
+
+      .calc-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      .calc-box {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 24px;
+      }
+
+      .calc-box-label {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--text-muted);
+        margin-bottom: 12px;
+        font-weight: 600;
+      }
+
+      .calc-box-value {
+        font-family: var(--font-mono);
+        font-size: 32px;
+        font-weight: 600;
+      }
+
+      .calc-box-detail {
+        font-size: 13px;
+        color: var(--text-muted);
+        margin-top: 6px;
+      }
+
+      .calc-box.loss .calc-box-value {
+        color: var(--bg-accent);
+      }
+      .calc-box.gain .calc-box-value {
+        color: var(--bg-green);
+      }
+
+      .calc-divider {
+        grid-column: 1 / -1;
+        height: 1px;
+        background: var(--border);
+      }
+
+      .calc-result {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 20px;
+        background: var(--bg-accent-soft);
+        border: 1px solid var(--border-accent);
+        border-radius: 10px;
+      }
+
+      .calc-result-label {
+        font-size: 14px;
+        color: var(--text-secondary);
+        margin-bottom: 4px;
+      }
+
+      .calc-result-value {
+        font-family: var(--font-mono);
+        font-size: 40px;
+        font-weight: 600;
+        color: var(--bg-accent);
+      }
+
+      /* --- CHECKLIST --- */
+      .checklist {
+        list-style: none;
+        margin: 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .checklist li {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        color: var(--text-secondary);
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .checklist-icon {
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        margin-top: 3px;
+      }
+
+      .checklist-icon.check {
+        background: var(--bg-green-soft);
+        color: var(--bg-green);
+      }
+      .checklist-icon.x {
+        background: var(--bg-accent-soft);
+        color: var(--bg-accent);
+      }
+
+      /* --- STEP CARDS --- */
+      .steps {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 32px 0;
+      }
+
+      .step {
+        display: grid;
+        grid-template-columns: 48px 1fr;
+        gap: 20px;
+        align-items: start;
+        padding: 28px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        transition: border-color 0.3s;
+      }
+
+      .step:hover {
+        border-color: var(--border-accent);
+      }
+
+      .step-number {
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        background: var(--bg-accent-soft);
+        color: var(--bg-accent);
+        font-family: var(--font-mono);
+        font-weight: 600;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .step-title {
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 6px;
+        font-size: 17px;
+      }
+
+      .step-desc {
+        color: var(--text-secondary);
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      /* --- DIVIDER --- */
+      .divider {
+        width: 48px;
+        height: 2px;
+        background: var(--bg-accent);
+        margin: 80px auto;
+        opacity: 0.5;
+      }
+
+      /* --- CTA SECTION --- */
+      .cta-section {
+        margin: 80px 0 0;
+        padding: 64px 40px;
+        background: linear-gradient(135deg, var(--bg-accent) 0%, #c62848 100%);
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .cta-section::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        right: -20%;
+        width: 400px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 50%;
+      }
+
+      .cta-section h2 {
+        font-family: var(--font-display);
+        font-size: 36px;
+        color: white;
+        margin: 0 0 16px;
+        position: relative;
+      }
+
+      .cta-section p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 17px;
+        margin-bottom: 32px;
+        position: relative;
+      }
+
+      .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: white;
+        color: var(--bg-accent);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 16px 40px;
+        border-radius: 10px;
+        transition: all 0.3s;
+        position: relative;
+      }
+
+      .cta-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+      }
+
+      .cta-btn svg {
+        width: 18px;
+        height: 18px;
+      }
+
+      /* --- FOOTER --- */
+      .footer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 60px 32px;
+        text-align: center;
+        border-top: 1px solid var(--border);
+        margin-top: 80px;
+      }
+
+      .footer-logo {
+        font-family: var(--font-body);
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 12px;
+      }
+
+      .footer-logo span {
+        color: var(--bg-accent);
+      }
+
+      .footer p {
+        font-size: 14px;
+        color: var(--text-muted);
+      }
+
+      /* --- RESPONSIVE --- */
+      @media (max-width: 768px) {
+        .hero {
+          padding: 120px 20px 60px;
+        }
+        .hero h1 {
+          font-size: 36px;
+        }
+        .hero-sub {
+          font-size: 16px;
+        }
+        .hero-meta {
+          flex-direction: column;
+          gap: 8px;
+        }
+        .stat-bar {
+          grid-template-columns: 1fr;
+        }
+        .stat-item {
+          padding: 24px 20px;
+        }
+        .stat-number {
+          font-size: 32px;
+        }
+        .article {
+          padding: 0 20px;
+        }
+        .article h2 {
+          font-size: 28px;
+          margin-top: 60px;
+        }
+        .pull-quote p {
+          font-size: 22px;
+        }
+        .big-number {
+          flex-direction: column;
+          gap: 8px;
+        }
+        .big-number-value {
+          font-size: 48px;
+        }
+        .calc-grid {
+          grid-template-columns: 1fr;
+        }
+        .calc-box-value {
+          font-size: 24px;
+        }
+        .calc-result-value {
+          font-size: 28px;
+        }
+        .calculator {
+          padding: 24px;
+        }
+        .cta-section {
+          padding: 40px 24px;
+          border-radius: 12px;
+        }
+        .cta-section h2 {
+          font-size: 28px;
+        }
+        .timeline-row {
+          grid-template-columns: 80px 1fr 60px;
+          gap: 8px;
+        }
+        .timeline-label {
+          font-size: 11px;
+        }
+        .nav {
+          padding: 14px 20px;
+        }
+        .step {
+          grid-template-columns: 40px 1fr;
+          gap: 14px;
+          padding: 20px;
+        }
+        .step-number {
+          width: 40px;
+          height: 40px;
+          font-size: 15px;
+        }
+      }
+
+      /* --- SUBTLE ANIMATIONS --- */
+      @media (prefers-reduced-motion: no-preference) {
+        .article h2,
+        .data-card,
+        .pull-quote,
+        .calculator,
+        .step,
+        .cta-section {
+          opacity: 0;
+          transform: translateY(20px);
+          animation: fadeUp 0.6s forwards;
+        }
+        .data-card {
+          animation-delay: 0.1s;
+        }
+        .pull-quote {
+          animation-delay: 0.05s;
+        }
+      }
+
+      @keyframes fadeUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Intersection observer will re-trigger these */
+      .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(20px);
+        transition:
+          opacity 0.6s,
+          transform 0.6s;
+      }
+      .animate-on-scroll.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav">
+      <a href="#" class="nav-logo">ESH<span>A</span>RQ</a>
+      <a href="#cta" class="nav-cta">Get Your AI Agent</a>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-tag">Guide for Realtors</div>
+      <h1>You're Losing Deals<br />in Your <em>Sleep</em></h1>
+      <p class="hero-sub">
+        78% of buyers work with the first agent who responds. The average agent
+        takes 15 hours. Here's how top-producing realtors close 3x more deals —
+        without working 3x harder.
+      </p>
+      <div class="hero-meta">
+        <span>📖 8 min read</span>
+        <span>📊 Data-backed</span>
+        <span>🤖 Actionable AI strategies</span>
+      </div>
+    </header>
+
+    <!-- STAT BAR -->
+    <div class="stat-bar">
+      <div class="stat-item">
+        <div class="stat-number">78%</div>
+        <div class="stat-label">buy from the first responder</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">15h</div>
+        <div class="stat-label">average agent response time</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">21×</div>
+        <div class="stat-label">more likely to qualify in 5 min</div>
+      </div>
+    </div>
+
+    <!-- ARTICLE -->
+    <article class="article">
+      <h2>The 15-Hour Problem</h2>
+
+      <p>
+        Here's a scenario that plays out every single night in real estate: A
+        potential buyer finds your listing at 11 PM. They're excited. They tap
+        "Contact Agent." They wait. And they wait. By 8 AM the next morning,
+        when you finally see the notification over coffee, they've already
+        scheduled three showings with agents who responded within minutes.
+      </p>
+
+      <p>
+        This isn't hypothetical.
+        <strong
+          >Industry research consistently shows that the average real estate
+          agent takes over 15 hours to respond to a new lead inquiry.</strong
+        >
+        That's not a typo. Fifteen hours. In an industry where the first
+        responder wins nearly 8 out of 10 deals.
+      </p>
+
+      <p>
+        The math is brutal, and it doesn't care how good your listings are or
+        how many years you've been in the business.
+      </p>
+
+      <div class="pull-quote">
+        <p>
+          If you're not first, you're losing nearly 8 out of 10 potential
+          clients before the conversation even begins.
+        </p>
+        <cite>Based on NAR 2025 Buyer & Seller Trends Data</cite>
+      </div>
+
+      <h2>The Response Time Cliff</h2>
+
+      <p>
+        Lead qualification doesn't decline gradually — it falls off a cliff.
+        Research tracking over 1.25 million sales leads found that the
+        difference between responding in 5 minutes versus 30 minutes isn't a
+        marginal edge. It's a categorical difference in outcomes.
+      </p>
+
+      <div class="data-card">
+        <div class="data-card-header">
+          ⏱ Lead qualification rate by response time
+        </div>
+        <div class="timeline">
+          <div class="timeline-row">
+            <div class="timeline-label">Under 1 min</div>
+            <div class="timeline-bar-wrap">
+              <div
+                class="timeline-bar"
+                style="width: 100%; background: var(--bg-green)"
+              ></div>
+            </div>
+            <div class="timeline-pct" style="color: var(--bg-green)">78%</div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-label">Under 5 min</div>
+            <div class="timeline-bar-wrap">
+              <div
+                class="timeline-bar"
+                style="width: 58%; background: var(--bg-blue)"
+              ></div>
+            </div>
+            <div class="timeline-pct" style="color: var(--bg-blue)">45%</div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-label">Under 1 hour</div>
+            <div class="timeline-bar-wrap">
+              <div
+                class="timeline-bar"
+                style="width: 28%; background: var(--bg-yellow)"
+              ></div>
+            </div>
+            <div class="timeline-pct" style="color: var(--bg-yellow)">22%</div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-label">Under 24 hrs</div>
+            <div class="timeline-bar-wrap">
+              <div
+                class="timeline-bar"
+                style="width: 12%; background: var(--bg-accent)"
+              ></div>
+            </div>
+            <div class="timeline-pct" style="color: var(--bg-accent)">9%</div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-label">Over 24 hrs</div>
+            <div class="timeline-bar-wrap">
+              <div
+                class="timeline-bar"
+                style="width: 4%; background: var(--text-muted)"
+              ></div>
+            </div>
+            <div class="timeline-pct" style="color: var(--text-muted)">3%</div>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        Look at that drop-off. Going from under 1 minute to under 5 minutes
+        already cuts your qualification rate nearly in half. Wait an hour, and
+        you're down to roughly 1 in 5. Wait a day, and you might as well not
+        have gotten the lead at all.
+      </p>
+
+      <p>
+        And here's the part that makes it worse:
+        <strong
+          >62% of real estate inquiries come in outside traditional business
+          hours.</strong
+        >
+        Evenings. Weekends. Holidays. The times when you're least likely to be
+        watching your phone are the times when your future clients are most
+        actively searching.
+      </p>
+
+      <h2>The Real Cost of Slow Response</h2>
+
+      <p>
+        Let's stop talking about percentages and talk about money — because
+        that's what's actually at stake every time your phone buzzes at 11 PM
+        and you don't hear it.
+      </p>
+
+      <div class="calculator">
+        <div class="calculator-title">What Slow Response Is Costing You</div>
+        <div class="calculator-sub">
+          Based on industry averages: $400K median home price, 2.5–3%
+          commission, 20 leads/month
+        </div>
+        <div class="calc-grid">
+          <div class="calc-box loss">
+            <div class="calc-box-label">15-hour response time</div>
+            <div class="calc-box-value">0.6</div>
+            <div class="calc-box-detail">
+              closings per month (3% conversion)
+            </div>
+          </div>
+          <div class="calc-box gain">
+            <div class="calc-box-label">5-minute response time</div>
+            <div class="calc-box-value">3.0</div>
+            <div class="calc-box-detail">
+              closings per month (15% conversion)
+            </div>
+          </div>
+          <div class="calc-divider"></div>
+          <div class="calc-box loss">
+            <div class="calc-box-label">Annual revenue (slow)</div>
+            <div class="calc-box-value">$86K</div>
+            <div class="calc-box-detail">
+              ~7 closings × $12,000 avg commission
+            </div>
+          </div>
+          <div class="calc-box gain">
+            <div class="calc-box-label">Annual revenue (fast)</div>
+            <div class="calc-box-value">$432K</div>
+            <div class="calc-box-detail">
+              ~36 closings × $12,000 avg commission
+            </div>
+          </div>
+          <div class="calc-result">
+            <div class="calc-result-label">
+              Revenue you're leaving on the table every year
+            </div>
+            <div class="calc-result-value">$346,000</div>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        That number isn't fantasy. It's the mathematical difference between the
+        average agent's conversion rate and what agents who respond within 5
+        minutes consistently achieve — on the <em>same</em> leads, in the
+        <em>same</em> market, with the <em>same</em> listings.
+      </p>
+
+      <p>
+        The expensive part isn't the leads you're buying. It's the ones you
+        already have and aren't responding to fast enough.
+      </p>
+
+      <div class="divider"></div>
+
+      <h2>Why Top Agents Can't Solve This Alone</h2>
+
+      <p>
+        Here's the uncomfortable truth: the response time problem isn't about
+        laziness or lack of effort. It's structural. You physically cannot
+        respond to every lead in under 5 minutes when you're:
+      </p>
+
+      <ul class="checklist">
+        <li>
+          <span class="checklist-icon x">✕</span>
+          <span>Showing a property to a current client</span>
+        </li>
+        <li>
+          <span class="checklist-icon x">✕</span>
+          <span>In a closing meeting or on a call with a lender</span>
+        </li>
+        <li>
+          <span class="checklist-icon x">✕</span>
+          <span>Asleep at 2 AM when 62% of leads come in after hours</span>
+        </li>
+        <li>
+          <span class="checklist-icon x">✕</span>
+          <span>On vacation, sick, or simply living your life</span>
+        </li>
+        <li>
+          <span class="checklist-icon x">✕</span>
+          <span>Managing 15 active conversations simultaneously</span>
+        </li>
+      </ul>
+
+      <p>
+        The agents who crack this aren't working harder — they're using systems
+        that work while they don't. Specifically, they're using AI agents that
+        respond instantly, qualify leads intelligently, and book appointments
+        automatically.
+      </p>
+
+      <p>
+        Not the generic "thanks for reaching out, we'll get back to you"
+        autoresponder that everyone ignores. Something that actually holds a
+        conversation.
+      </p>
+
+      <h2>What an AI Lead Agent Actually Does</h2>
+
+      <p>
+        Let's be specific. An AI agent built for real estate doesn't just send a
+        template. Here's what happens when a lead comes in at 11:47 PM on a
+        Tuesday:
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div>
+            <div class="step-title">Instant Response (Under 90 Seconds)</div>
+            <p class="step-desc">
+              The AI responds with a personalized message that references the
+              specific listing the lead inquired about. Not "Hi, thanks for your
+              interest." More like: "Hi Sarah! The 3-bed on Maple Street is
+              still available — it just got a price adjustment this week. Are
+              you looking to schedule a viewing?"
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div>
+            <div class="step-title">Qualification (2–3 Minutes)</div>
+            <p class="step-desc">
+              The AI asks the right questions naturally: budget range, timeline,
+              pre-approval status, preferred neighborhoods, whether they're also
+              selling. It doesn't feel like a form — it feels like a
+              conversation with a helpful assistant.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div>
+            <div class="step-title">Smart Routing (Instant)</div>
+            <p class="step-desc">
+              Based on the answers, the AI scores the lead. Hot leads
+              (pre-approved, ready to move in 30–60 days) get flagged for
+              immediate agent follow-up. Warm leads get booked into your
+              calendar. Cold leads enter a nurture sequence.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <div>
+            <div class="step-title">Calendar Booking (Automatic)</div>
+            <p class="step-desc">
+              The AI checks your real availability and offers the lead 2–3 time
+              slots for a call, showing, or virtual tour. Once confirmed, both
+              you and the lead get a calendar invite with all the details. You
+              wake up to a full schedule.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">05</div>
+          <div>
+            <div class="step-title">
+              Handoff Brief (Before Your First Coffee)
+            </div>
+            <p class="step-desc">
+              By morning, you have a clean lead profile: name, budget, timeline,
+              pre-approval status, preferred areas, specific questions they
+              asked, and the full conversation transcript. You walk into the
+              call fully prepared — not cold.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        The entire process takes about 3 minutes of the lead's time. They get a
+        fast, helpful, personalized experience. You get a qualified lead with an
+        appointment already booked. And neither of you had to be awake at
+        midnight to make it happen.
+      </p>
+
+      <h2>The Open House Problem (and How AI Solves It)</h2>
+
+      <p>
+        Here's another place where agents hemorrhage leads without realizing it:
+        the open house sign-in sheet.
+      </p>
+
+      <div class="big-number">
+        <div class="big-number-value">188</div>
+        <div class="big-number-context">
+          out of 200 open house visitors go without a follow-up from the average
+          agent
+        </div>
+      </div>
+
+      <p>
+        You get 200 names on a sheet. You follow up with 12. Maybe 15 on a good
+        week. The rest? By the time you get to them — if you get to them —
+        they've already heard from your competitor who had an AI agent send a
+        personalized email within one hour of the open house:
+      </p>
+
+      <p>
+        <em
+          >"Hi David, thanks for visiting 742 Oak Street today! I noticed you
+          spent extra time looking at the kitchen and backyard. Would you like
+          to schedule a private second showing this week? I have openings
+          Thursday at 4 PM or Saturday at 10 AM."</em
+        >
+      </p>
+
+      <p>
+        That's not a template. That's an AI agent trained on your properties,
+        your style, and your calendar — doing in seconds what would take you
+        hours of manual follow-up that never happens.
+      </p>
+
+      <div class="divider"></div>
+
+      <h2>What This Looks Like in Practice</h2>
+
+      <p>
+        Let's compare two agents in the same market, with the same lead volume,
+        and the same listings.
+      </p>
+
+      <div class="data-card">
+        <div class="data-card-header">
+          📊 Agent comparison — same market, same leads
+        </div>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Agent A (Manual)</th>
+              <th>Agent B (AI-Assisted)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="metric">Avg. response time</td>
+              <td class="bad">6+ hours</td>
+              <td class="good">90 seconds</td>
+            </tr>
+            <tr>
+              <td class="metric">After-hours coverage</td>
+              <td class="bad">None</td>
+              <td class="good">24/7/365</td>
+            </tr>
+            <tr>
+              <td class="metric">Leads qualified/month</td>
+              <td class="bad">8 of 20</td>
+              <td class="good">18 of 20</td>
+            </tr>
+            <tr>
+              <td class="metric">Appointments booked</td>
+              <td class="bad">3–4</td>
+              <td class="good">10–12</td>
+            </tr>
+            <tr>
+              <td class="metric">Monthly closings</td>
+              <td class="bad">0.5–1</td>
+              <td class="good">2–3</td>
+            </tr>
+            <tr>
+              <td class="metric">Hours spent on follow-up</td>
+              <td class="bad">15–20 hrs/week</td>
+              <td class="good">3–5 hrs/week</td>
+            </tr>
+            <tr>
+              <td class="metric">Cost per closing</td>
+              <td class="bad">$8,000–$10,000</td>
+              <td class="good">$1,500–$2,500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Agent B isn't a better agent. They're not working more hours. They're
+        not spending more on leads. They simply have a system that ensures every
+        single lead gets a fast, intelligent response — regardless of when it
+        comes in or what the agent is doing.
+      </p>
+
+      <h2>The 5 Things Your AI Agent Must Do</h2>
+
+      <p>
+        Not all AI solutions are built the same. If you're evaluating options,
+        here's what actually matters for real estate:
+      </p>
+
+      <ul class="checklist">
+        <li>
+          <span class="checklist-icon check">✓</span>
+          <span
+            ><strong>Respond in under 2 minutes, 24/7.</strong> Not just during
+            business hours. Not just on weekdays. Every lead, every time. If the
+            system can't do this, it's not solving your actual problem.</span
+          >
+        </li>
+        <li>
+          <span class="checklist-icon check">✓</span>
+          <span
+            ><strong>Hold a real conversation, not just send templates.</strong>
+            The AI needs to ask follow-up questions, handle objections, and feel
+            like a helpful human — not a form with a chatbot skin.</span
+          >
+        </li>
+        <li>
+          <span class="checklist-icon check">✓</span>
+          <span
+            ><strong>Qualify leads based on YOUR criteria.</strong> Budget,
+            timeline, pre-approval, preferred areas — the AI should gather the
+            information you actually need, then score and prioritize leads for
+            you.</span
+          >
+        </li>
+        <li>
+          <span class="checklist-icon check">✓</span>
+          <span
+            ><strong>Book directly into your calendar.</strong> No
+            back-and-forth. No "I'll have my agent call you." The AI checks your
+            real availability and books the appointment. You get a notification
+            with a full lead brief.</span
+          >
+        </li>
+        <li>
+          <span class="checklist-icon check">✓</span>
+          <span
+            ><strong>Sound like you, not like a robot.</strong> The best AI
+            agents are trained on your tone, your market knowledge, and your
+            specific listings. The lead should never feel like they're talking
+            to a machine.</span
+          >
+        </li>
+      </ul>
+
+      <h2>The "But Won't Clients Know It's AI?" Question</h2>
+
+      <p>
+        This is the number one objection agents raise. And it's valid — real
+        estate is a relationship business.
+      </p>
+
+      <p>
+        Here's the reality:
+        <strong
+          >clients don't care whether the first response is from you or from an
+          AI. They care that they got a response.</strong
+        >
+      </p>
+
+      <p>
+        Think about it from the buyer's perspective. It's 11 PM. They found a
+        listing they love. They reach out to three agents. Two of them are
+        silent until tomorrow. One responds in 90 seconds with a helpful,
+        personalized message that answers their question and offers to schedule
+        a showing.
+      </p>
+
+      <p>
+        Which agent are they going to work with? The one who "personally"
+        responded 15 hours later — or the one whose system made them feel valued
+        immediately?
+      </p>
+
+      <p>
+        The AI isn't replacing you. It's making sure the lead is still there
+        when you show up.
+      </p>
+
+      <div class="pull-quote">
+        <p>
+          The AI handles the first 3 minutes. You handle the relationship.
+          That's the split that wins.
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2>Your Next Move</h2>
+
+      <p>Here's what top-producing agents do this week after reading this:</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">→</div>
+          <div>
+            <div class="step-title">Audit your current response time</div>
+            <p class="step-desc">
+              Go to your CRM right now. Look at the timestamp of your last 10
+              inbound leads. Then look at when you first responded. The number
+              will be uncomfortable. Good — that's the starting point.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">→</div>
+          <div>
+            <div class="step-title">Calculate your cost of slow response</div>
+            <p class="step-desc">
+              Take your monthly lead volume. Multiply by the industry conversion
+              rate at your current response time. Now multiply by the 5-minute
+              response conversion rate. The gap between those two numbers?
+              That's the money sitting on the table.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">→</div>
+          <div>
+            <div class="step-title">
+              Talk to someone who builds AI agents for real estate
+            </div>
+            <p class="step-desc">
+              Not a generic chatbot company. Not a CRM with an autoresponder
+              bolted on. Someone who builds custom AI agents trained on your
+              listings, your market, your qualifying criteria, and your voice.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-section" id="cta">
+        <h2>That's What We Do at Esharq</h2>
+        <p>
+          We build AI agents specifically for real estate professionals. They
+          respond to every lead in under 2 minutes, qualify based on your
+          criteria, and book appointments directly into your calendar — 24/7,
+          including nights, weekends, and holidays. No credits wasted. No
+          burnout. Just qualified leads waiting for you every morning.
+        </p>
+        <a href="#" class="cta-btn">
+          Let's Build Your AI Agent
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-logo">ESH<span>A</span>RQ</div>
+      <p>Faster AI solutions. No unnecessary burnout.</p>
+    </footer>
+
+    <script>
+      // Intersection Observer for scroll animations
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document
+        .querySelectorAll(
+          ".data-card, .calculator, .step, .pull-quote, .cta-section",
+        )
+        .forEach((el) => {
+          el.classList.add("animate-on-scroll");
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>
