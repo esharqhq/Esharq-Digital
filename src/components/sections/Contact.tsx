@@ -88,7 +88,7 @@ export const Contact = ({ dict }: { dict: any }) => {
                 </span>
               </div>
             </div>
-            <div className="group cursor-pointer">
+            {/* <div className="group cursor-pointer">
               <p className="text-[9px] uppercase tracking-[0.4em] text-gray-600 mb-2">
                 {dict.phone}
               </p>
@@ -100,7 +100,7 @@ export const Contact = ({ dict }: { dict: any }) => {
                   </span>
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
